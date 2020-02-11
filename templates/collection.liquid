@@ -1,0 +1,20 @@
+{% section 'collection-header' %}
+
+<div id="CollectionAjaxResult" class="collection-content">
+  <div id="CollectionAjaxContent">
+    <div class="page-width">
+      <div class="grid">
+        <div class="grid__item medium-up--one-fifth grid__item--sidebar">
+          <div id="bc-sf-filter-tree">
+            {% comment %} Include placeholder template {% endcomment %}
+            {% include 'bc-sf-filter-tree-placeholder' %}
+          </div>
+        </div>
+        <div class="grid__item medium-up--four-fifths grid__item--content">
+          {% section 'collection-promotions' %}
+          {% section 'collection-template' %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

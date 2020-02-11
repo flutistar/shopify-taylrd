@@ -1,0 +1,138 @@
+<script id="CartTemplate" type="text/template">
+{% raw %}
+  <form action="/cart" method="post" novalidate class="cart ajaxcart">
+    <div class="drawer__inner drawer__inner--has-fixed-footer">
+      {{#items}}
+      <div class="ajaxcart__product appear-animation appear-delay-{{animationRow}}">
+        <div class="ajaxcart__row">
+          <div class="grid">
+            <div class="grid__item one-third">
+              <a href="{{url}}" class="ajaxcart__product-image"><img src="{{img}}" alt="{{name}}"></a>
+            </div>
+            <div class="grid__item two-thirds">
+              <div class="ajaxcart__product-name--wrapper">
+                <a href="{{url}}" class="ajaxcart__product-name">{{{name}}}</a>
+                {{#if variation}}
+                  <span class="ajaxcart__product-meta">{{variation}}</span>
+                {{/if}}
+                {{#properties}}
+                  {{#each this}}
+                    {{#if this}}
+                      <span class="ajaxcart__product-meta">{{@key}}: {{this}}</span>
+                    {{/if}}
+                  {{/each}}
+                {{/properties}}
+              </div>
+
+              <div class="grid grid--full display-table">
+                <div class="grid__item display-table-cell one-half">
+                  <div class="ajaxcart__quantity js-qty">
+                    <label for="updates_{{key}}" class="visually-hidden">{% endraw %}{{ 'products.product.quantity' | t }}{% raw %}</label>
+                    <input type="number" id="updates_{{key}}" name="updates[]" value="{{itemQty}}" min="0" class="js-qty__fallback" data-id="{{key}}">
+                  </div>
+                </div>
+                <div class="grid__item display-table-cell one-half text-right">
+                  {{#if discountsApplied}}
+                    <small class="ajaxcart__price--strikethrough">{{{price}}}</small>
+                    <span class="ajaxcart__price">
+                      {{{discountedPrice}}}
+                    </span>
+                  {{else}}
+                    <span class="ajaxcart__price">
+                      {{{price}}}
+                    </span>
+                  {{/if}}
+                </div>
+              </div>
+              {{#if discountsApplied}}
+                <div class="grid grid--full display-table">
+                  <div class="grid__item text-right">
+                    {{#each discounts}}
+                      <small class="ajaxcart__discount">{{this.title}}</small>
+                    {{/each}}
+                  </div>
+                </div>
+              {{/if}}
+            </div>
+          </div>
+        </div>
+      </div>
+      {{/items}}
+
+      {% endraw %}{% if settings.cart_notes_enable %}{% raw %}
+        <div class="appear-animation appear-delay-{{lastAnimationRow}}">
+          <label for="CartSpecialInstructions" class="ajaxcart__note">{% endraw %}{{ 'cart.general.note' | t }}{% raw %}</label>
+          <textarea name="note" class="input-full" id="CartSpecialInstructions">{{note}}</textarea>
+        </div>
+      {% endraw %}{% endif %}{% raw %}
+    </div>
+    <div class="drawer__footer drawer__footer--fixed appear-animation appear-delay-{{lastAnimationRow}}">
+      <div class="grid grid--full">
+        {% endraw %}
+        {% assign value = 7500 | minus: cart.total_price %}
+        {% if value > 0 %}
+          {% assign percentage = 7500 | minus: cart.total_price | divided_by: 7500.0 | times: 100 %}
+          <h3 id="shippng_note">You Are {{ value | money}} Away from FREE SHIPPING.</h3>
+          
+          <div class="grid grid--full cart__row--table">
+              <progress id="shipping_progress" value="{{percentage}}" max="100" style="width:75%;"></progress>
+              <img src="{{ 'shipping-free.png' | asset_img_url: }}" style="margin-left: 10px;" />
+          </div>
+        {% else %}
+          <h3 id="shippng_note">Awesome. You've got free shipping!</h3>
+          <div class="grid grid--full cart__row--table">
+              <progress id="shipping_progress" value="100" max="100" style="width:75%;"></progress>
+              <img src="{{ 'shipping-free.png' | asset_img_url: }}" style="margin-left: 10px;" />
+          </div>
+        {% endif %}
+        {% raw %}
+      </div>
+      <div class="grid grid--full">
+        <div class="grid__item two-thirds">
+          <p class="ajaxcart__subtotal">{% endraw %}{{ 'cart.general.subtotal' | t }}{% raw %}</p>
+        </div>
+        <div class="grid__item one-third text-right">
+          <p class="ajaxcart__price">{{{totalPrice}}}</p>
+        </div>
+      </div>
+      {{#if totalCartDiscount}}
+        <p class="ajaxcart__savings text-center">{{{totalCartDiscount}}}</p>
+      {{/if}}
+      <p class="ajaxcart__note">
+        {% endraw %}{{ 'cart.general.shipping_at_checkout' | t }}{% raw %}
+        {% endraw %}{% if settings.enable_currencies %}{% raw %}
+          {% endraw %}{{ 'cart.general.orders_processed_in_currency_html' | t: currency: shop.currency }}{% raw %}
+        {% endraw %}{% endif %}{% raw %}
+      </p>
+      {% endraw %}{% if settings.cart_terms_conditions_enable %}
+        <p class="ajaxcart__note ajaxcart__note--terms">
+          <input type="checkbox" id="CartAgree" />
+          <label for="CartAgree">
+            {% if settings.cart_terms_conditions_link != blank %}
+              {{ 'cart.general.terms_html' | t: url: settings.cart_terms_conditions_link }}
+            {% else %}
+              {{ 'cart.general.terms' | t }}
+            {% endif %}
+          </label>
+        </p>
+      {% endif %}{% raw %}
+      {% endraw %}
+        {% if additional_checkout_buttons and settings.cart_additional_buttons %}
+          <div class="additional_checkout_buttons">{{ content_for_additional_checkout_buttons }}</div>
+        {% endif %}
+      {% raw %}
+      <button type="submit" class="btn btn--full cart__checkout{% endraw %}{% if settings.cart_terms_conditions_enable %}{% raw %} cart__checkout--ajax{% endraw %}{% endif %}{% raw %}" name="checkout">
+        {% endraw %}{{ 'cart.general.checkout' | t }}{% raw %}
+      </button>
+      <div style="text-align: center; margin: 10px;">
+        <a href="/cart" style="text-decoration: underline">Go to Cart page!</a>
+      </div>
+    </div>
+  </form>
+{% endraw %}
+</script>
+<script>
+  $(".change-item").change(function(){
+    alert();
+  });
+</script>

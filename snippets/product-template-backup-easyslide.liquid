@@ -1,0 +1,186 @@
+{% unless thumbnail_position %}
+  {%- assign thumbnail_position = 'beside' -%}
+{% endunless %}
+
+{%- assign product_img_structure = product.featured_image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+<div id="ProductSection-{{ section_id }}"
+  class="product-section"
+  itemscope itemtype="http://schema.org/Product"
+  data-section-id="{{ section_id }}"
+  data-section-type="product-template"
+  data-product-handle="{{ product.handle }}"
+  data-product-url="{{ product.url | within: collection }}"
+  data-aspect-ratio="{{ 100 | divided_by: product.featured_image.aspect_ratio }}"
+  data-img-url="{{ product_img_structure }}"
+  {% if settings.product_zoom_enable %}
+    data-image-zoom="true"
+  {% endif %}
+  {% if settings.inventory_enable %}
+    data-inventory="true"
+  {% endif %}
+  {% unless isModal %}
+    data-enable-history-state="true"
+  {% endunless %}
+  {% if isModal %}
+    data-lazyload-content="true"
+  {% endif %}>
+
+  {% include 'product-template-variables' %}
+
+  <div class="page-content page-content--product">
+    <div class="page-width">
+
+      <div class="grid{% unless image_position == 'left' %} grid--product-images-right{% endunless %}">
+        {% if image_position == 'left' %}
+          <div class="grid__item {{ product_image_width }}">
+            {% include 'product-images', section_id: section_id, isModal: isModal, thumbnail_position: thumbnail_position %}
+          </div>
+        {% endif %}
+
+        <div class="grid__item {{ product_description_width }}">
+
+          <div class="product-single__meta">
+            {% if settings.show_breadcrumbs and isModal != true %}
+              {% include 'breadcrumbs' %}
+            {% endif %}
+
+            {% if settings.vendor_enable %}
+              <div class="product-single__vendor" itemprop="brand">{{ product.vendor }}</div>
+            {% endif %}
+
+            {% if isModal %}
+              <p class="h2 product-single__title" itemprop="name">{{ product.title }}</p>
+            {% else %}
+              <h1 class="h2 product-single__title" itemprop="name">{{ product.title }}</h1>
+            {% endif %}
+  <span class="stamped-product-reviews-badge stamped-main-badge" data-id="{{ product.id }}" data-product-sku="{{ product.handle }}" style="display: inline-block;">{{ product.metafields.stamped.badge }}</span>
+
+            {% if settings.enable_product_reviews and settings.reviews_layout == 'full' %}
+              {% if isModal %}
+                {%- assign review_link = product.url | within: collection | append: '#Reviews-' | append: product.id -%}
+              {% else %}
+                {%- assign review_link = '#Reviews-' | append: product.id -%}
+              {% endif %}
+              <a href="{{ review_link }}" class="product-single__review-link">
+                <span class="shopify-product-reviews-badge" data-id="{{ product.id }}"></span>
+              </a>
+            {% endif %}
+
+            {% if settings.sku_enable %}
+              <p id="Sku-{{ section_id }}" class="product-single__sku">
+                {% if current_variant.sku %}
+                  {{ current_variant.sku }}
+                {% endif %}
+              </p>
+            {% endif %}
+
+            <div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+              {%- assign hide_sale_price = true -%}
+              {% if product.compare_at_price_max > product.price %}
+                {% if current_variant.compare_at_price > current_variant.price %}
+                  {%- assign hide_sale_price = false -%}
+                {% endif %}
+                <span
+                  id="PriceA11y-{{ section_id }}"
+                  class="visually-hidden"
+                  aria-hidden="{{ hide_sale_price }}">
+                    {{ 'products.general.regular_price' | t }}
+                </span>
+                <span class="product__price-wrap-{{ section_id }}{% if hide_sale_price %} hide{% endif %}">
+                  <span id="ComparePrice-{{ section_id }}" class="product__price product__price--compare">
+                    {% if current_variant.compare_at_price > current_variant.price %}
+                      {{ current_variant.compare_at_price | money }}
+                    {% endif %}
+                  </span>
+                </span>
+                <span id="ComparePriceA11y-{{ section_id }}" class="visually-hidden">{{ 'products.general.sale_price' | t }}</span>
+              {% else %}
+                <span id="PriceA11y-{{ section_id }}" class="visually-hidden">{{ 'products.general.regular_price' | t }}</span>
+              {% endif %}
+
+              <span id="ProductPrice-{{ section_id }}"
+                class="product__price{% if current_variant.compare_at_price > current_variant.price %} on-sale{% endif %}"
+                itemprop="price"
+                content="{{ current_variant.price | divided_by: 100.00 }}">
+                {{ current_variant.price | money }}
+              </span>
+
+              {% capture saved_amount %}{{ current_variant.compare_at_price | minus: current_variant.price | money }}{% endcapture %}
+              <span id="SavePrice-{{ section_id }}" class="product__price-savings{% if hide_sale_price %} hide{% endif %}">
+                {{ 'products.general.save_html' | t: saved_amount: saved_amount }}
+              </span>
+
+              {% if settings.inventory_enable %}
+                <script>
+                  // Store inventory quantities in JS because they're no longer
+                  // available directly in JS when a variant changes.
+                  // Have an object that holds all potential products so it works
+                  // with quick view or with multiple featured products.
+                  window.inventories = window.inventories || {};
+                  window.inventories['{{section_id}}'] = {};
+                  var inv_qty = {};
+                   {% for variant in product.variants %}
+                    window.inventories['{{section_id}}'][{{variant.id}}] = {{ variant.inventory_quantity | default: 0 }};
+                   {% endfor %}
+                </script>
+
+                {%- assign inventory_visible = false -%}
+                {% if current_variant.inventory_management == 'shopify' %}
+                  {% if current_variant.inventory_quantity < 10 %}
+                    {%- assign inventory_visible = true -%}
+                  {% endif %}
+                {% endif %}
+                {% if current_variant.inventory_quantity == 0 %}
+                  {%- assign inventory_visible = false -%}
+                {% endif %}
+              {% endif %}
+
+              <meta itemprop="priceCurrency" content="{{ shop.currency }}">
+              <link itemprop="availability" href="http://schema.org/{% if product.available %}InStock{% else %}OutOfStock{% endif %}">
+
+              <hr class="hr--medium">
+
+              {% unless isModal %}
+                {% comment %}
+                  Shopify's product form attaches a number of tracking
+                  scripts that cause slower load times and false statistics.
+                  Quick view modals request these on-demand.
+                {% endcomment %}
+                {% include 'product-form', section_id: section_id %}
+              {% else %}
+                <div id="ProductFormHolder-{{ section_id }}" class="product-form-holder" data-url="{{ product.url }}"></div>
+              {% endunless %}
+
+              {% unless section.settings.description_style == 'full' %}
+                <div class="product-single__description rte" itemprop="description">
+                  {{ product.description }}
+                </div>
+
+                {% include 'product-additional-content', section_id: section_id %}
+              {% endunless %}
+
+            </div>
+
+            {% if social %}
+              {% include 'social-sharing', share_title: product.title, share_permalink: product.url, share_image: product %}
+            {% endif %}
+          </div>
+        </div>
+
+        {% unless image_position == 'left' %}
+          <div class="grid__item {{ product_image_width }}">
+            {% include 'product-images', section_id: section_id, isModal: isModal, thumbnail_position: thumbnail_position %}
+          </div>
+        {% endunless %}
+      </div>
+
+      {% if section.settings.description_style == 'full' %}
+        <div class="product-single__description-full rte" itemprop="description">
+          {{ product.description }}
+        </div>
+
+        {% include 'product-additional-content', section_id: section_id %}
+      {% endif %}
+    </div>
+  </div>
+</div>

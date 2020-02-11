@@ -1,0 +1,241 @@
+
+
+<div class="swatch-hack">
+    <label class="variant__label">COLOR</label>
+{% assign type = product.type | handle %}
+  {% if type == 'shorts'%}
+  	{%assign type = 'chino-shorts' %}
+  {%endif%}
+  {% if type == 'pants'%}
+    {% if final_sale == true %}
+      <!-- final sale -->
+      {%assign type = 'final-sale-stretch-chinos' %}
+    {% else %}
+       <!-- regular -->
+  	  {%assign type = 'pants' %}
+    {%endif%}
+  	
+  {%endif%}
+  {% if type == 'pants2-0'%}
+    {% if final_sale == true %}
+      <!-- final sale -->
+      {%assign type = 'final-sale-stretch-chinos' %}
+    {% else %}
+       <!-- regular -->
+  	  {%assign type = 'stretch-chino-pant' %}
+    {%endif%}
+  	
+  {%endif%}
+  {% if type == 'chino-pants'%}
+    {% if final_sale == true %}
+      <!-- final sale -->
+      {%assign type = 'final-sale-chinos' %}
+    {% else %}
+       <!-- regular -->
+  	  {%assign type = 'chino-pants-1' %}
+    {%endif%}
+  	
+  {%endif%}
+  {% if type == 'short-sleeve-shirt'%}
+    {% if final_sale == true %}
+      <!-- final sale -->
+      {%assign type = 'final-sale-short-sleeve-button-downs' %}
+    {% else %}
+      <!-- regular -->
+  	  {%assign type = 'short-sleeve' %}
+    {%endif%}
+  
+  {%endif%}
+  {% if type == 'tech-chino'%}
+  	{%assign type = 'tech-chino-pants' %}
+  {%endif%}
+  {% if type == 'tech-shorts'%}
+  	{%assign type = 'tech-shorts' %}
+  {%endif%}
+  {% if type == 'pocket-jean'%}
+  	{%assign type = 'stretch-jeans' %}
+  {%endif%}
+  {% if type == 'long-sleeve-henley'%}
+  	{%assign type = 'long-sleeve-henley' %}
+  {%endif%}
+  {% if type == 'long-sleeve-shirt'%}
+  	{% if final_sale == true %}
+      <!-- final sale -->
+      {%assign type = 'final-sale-button-downs' %}
+    {% else %}
+       <!-- regular -->
+  	  {%assign type = 'long-sleeve-button-downs' %}
+    {%endif%}
+
+  {%endif%}
+  {% if type == 'hooded-jacket'%}
+  	{%assign type = 'lightweight-hooded-jacket' %}
+  {%endif%}
+  {% if type == 'bomber-jacket'%}
+  	{%assign type = 'bomber-jacket' %}
+  {%endif%}
+   {% if type == 'vneck'%}
+  	{%assign type = 'vneck-shirts' %}
+  {%endif%}
+    {% if type == 'classic-tee'%}
+  	{%assign type = 'classic-tee' %}
+  {%endif%}
+    {% if type == 'tech-5-pocket'%}
+    {%assign type = 'tech-5-pocket-pants' %}
+  {%endif%}
+  {% if type == 'brushed-button-down'%}
+  	{%assign type = 'brushed-button-downs' %}
+  {%endif%}
+  {% if type == 'jogger'%}
+  	{%assign type = 'joggers' %}
+  {%endif%}
+    {% if type == 'hoodie'%}
+  	{%assign type = 'hoodies' %}
+  {%endif%}
+  
+{% assign file_extension = 'png' %}
+{% for product in collections[type].products %}
+  {% assign value = product.title %}
+  {% assign test = product.type %}
+  {% assign swatch = product.images.size | minus:3 %}
+        <a href="{{product.url}}">
+            <!--<div class="tooltip" style="background-image: url({{ value | handle | append: '.' | append: file_extension | asset_url }})">-->
+            <div class="tooltip" style="background-image: url({{ product.images[swatch] | product_img_url: '200x'}}); background-size: 350%;
+    background-position: center center;">
+              <!--<img style="height:23px; width:24px;" src="{{product.images.first | product_img_url}}" />-->
+              <span class="tooltiptext">{{value}}</span>
+          	</div>
+        </a>
+  		
+       
+{% endfor %}
+</div>
+
+{% capture form_id %}AddToCartForm-{{ section_id }}{% endcapture %}
+{% form 'product', product, id: form_id, class: 'product-single__form', type: type %}
+  {% unless product.options.size == 1 and product.variants[0].title == 'Default Title' %}
+    {% for option in product.options_with_values %}
+      {% if settings.variant_type == 'button' %}
+        {% include 'variant-button', section_id: section_id, option_drop: option %}
+      {% else %}
+        {% include 'variant-dropdown', section_id: section_id %}
+      {% endif %}
+    {% endfor %}
+  {% endunless %}
+{% if product.type == "Bomber Jacket"%}
+
+{%elsif product.type == "shorts"%}
+
+{%elsif product.type == "Hooded Jacket"%}
+
+{%elsif product.type == "Underwear"%}
+
+{%elsif product.type == "Swim"%}
+
+
+{%else%}
+
+{% assign count = product.images.size | minus:2 %}
+
+<!--<a data-fancybox="fit-guide" href="{{ product.images[count] | product_img_url: 'master' }}"><h4><i class="fas fa-info-circle"></i>Fit Guide</h4></a>-->
+<!--<a data-fancybox="size-chart" href="{{ product.images.last | product_img_url: 'master' }}"><h4><i class="fas fa-info-circle"></i>Size Chart</h4></a>-->
+{%endif%}
+
+
+  <select name="id" id="ProductSelect-{{ section_id }}" class="product-single__variants no-js">
+    {% for variant in product.variants %}
+      {% if variant.available %}
+        <option {% if variant == product.selected_or_first_available_variant %}
+          selected="selected" {% endif %}
+          value="{{ variant.id }}">
+          {{ variant.title }} - {{ variant.price | money_with_currency }}
+        </option>
+      {% else %}
+        <option disabled="disabled">
+          {{ variant.title }} - {{ 'products.product.sold_out' | t }}
+        </option>
+      {% endif %}
+    {% endfor %}
+  </select>
+
+	
+  {% if settings.quantity_enable %}
+    <div class="product__quantity product__quantity--{{ settings.variant_type }} js-qty">
+      <label for="Quantity-{{ section_id }}">{{ 'products.product.quantity' | t }}</label>
+      <input type="number" hidden="hidden" id="Quantity-{{ section_id }}" name="quantity" value="1" min="1" class="js-qty__fallback">
+    </div>
+  {% endif %}
+
+  <div
+    id="ProductInventory-{{ section_id }}"
+    class="product__inventory {% unless inventory_visible %}hide{% endunless %}"
+    >
+    {% if current_variant.available %}
+      {{ 'products.product.stock_label' | t: count: current_variant.inventory_quantity }}
+    {% endif %}
+  </div>
+
+  {%- assign enable_dynamic_buttons = false -%}
+  {% if settings.enable_payment_button and template != 'product.preorder' %}
+    {%- assign enable_dynamic_buttons = true -%}
+  {% endif %}
+
+  {% if enable_dynamic_buttons %}
+    <div class="payment-buttons">
+  {% endif %}
+
+    <button
+      {% if product.empty? %}type="button"{% else %}type="submit"{% endif %}
+      name="add"
+      id="AddToCart-{{ section_id }}"
+      class="btn btn--full add-to-cart{% if enable_dynamic_buttons %} btn--secondary{% endif %}"
+      {% unless current_variant.available %} disabled="disabled"{% endunless %}>
+      <span id="AddToCartText-{{ section_id }}">
+        {% if current_variant.available %}
+          {% if template == 'product.preorder' %}
+            {{ 'products.product.preorder' | t }}
+          {% else %}
+            {{ 'products.product.add_to_cart' | t }}
+          {% endif %}
+        {% else %}
+          {{ 'products.product.sold_out' | t }}
+        {% endif %}
+      </span>
+    </button>
+
+    {% if enable_dynamic_buttons %}
+      {{ form | payment_button }}
+    {% endif %}
+
+  {% if enable_dynamic_buttons %}
+    </div>
+  {% endif %}
+
+  <div id="VariantsJson-{{ section_id }}" class="hide" aria-hidden="true">
+    {{ product.variants | json }}
+  </div>
+{% endform %}
+
+<script>
+  $(window).load(function(){
+    $(".product-single__form fieldset").each(function(){
+      let fieldName = $(this).attr('name');
+      let id = $(this).attr('id');
+      let preValue = localStorage.getItem(fieldName);
+      $("input:radio[name='" + fieldName + "']").filter("[value='" + preValue + "']").click();
+      console.log(preValue);
+      // var value = $("#" + id + " :radio:checked").val();
+      // console.log(value);
+    });
+  });
+//   $.getJSON("https://api.ipify.org/?format=json", function(e) {
+//     console.log(e.ip);
+// });
+  $(".product-single__form fieldset").change(function(){
+    let fieldName = $(this).attr('name');
+    let id = $(this).attr('id');
+    var value = $("#" + id + " :radio:checked").val();
+    localStorage.setItem(fieldName, value);
+    console.log(value);
+  });
+</script>

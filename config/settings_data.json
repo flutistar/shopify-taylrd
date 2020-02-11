@@ -1,0 +1,4271 @@
+{
+  "current": {
+    "color_body_bg": "#ffffff",
+    "color_body_text": "#000000",
+    "color_price": "#9a9a9a",
+    "color_savings_text": "#305860",
+    "color_borders": "#e8e8e1",
+    "color_button": "#111111",
+    "color_button_text": "#ffffff",
+    "color_cart_dot": "#305860",
+    "color_small_image_bg": "#ffffff",
+    "color_large_image_bg": "#0f0f0f",
+    "color_header": "#ffffff",
+    "color_header_text": "#000000",
+    "color_announcement": "#305860",
+    "color_announcement_text": "#ffffff",
+    "color_footer": "#305860",
+    "color_footer_text": "#ffffff",
+    "color_drawer_background": "#ffffff",
+    "color_drawer_text": "#000000",
+    "color_drawer_border": "#e8e8e1",
+    "color_drawer_button": "#111111",
+    "color_drawer_button_text": "#ffffff",
+    "color_modal_overlays": "#e6e6e6",
+    "color_image_text": "#ffffff",
+    "color_image_overlay": "#000000",
+    "color_image_overlay_opacity": 10,
+    "color_image_overlay_text_shadow": 0,
+    "type_header_font_family": "lato_n9",
+    "type_header_spacing": "-25",
+    "type_header_base_size": 35,
+    "type_header_line_height": 1,
+    "type_header_capitalize": true,
+    "type_headers_align_text": true,
+    "type_base_font_family": "lato_n4",
+    "type_base_spacing": "0",
+    "type_base_size": 16,
+    "type_base_line_height": 1.6,
+    "type_body_align_text": true,
+    "type_navigation_style": "body",
+    "type_navigation_size": 14,
+    "type_product_style": "body",
+    "type_collection_font": "heading",
+    "type_collection_size": 22,
+    "button_style": "square",
+    "icon_weight": "3px",
+    "icon_linecaps": "miter",
+    "vendor_enable": false,
+    "sku_enable": false,
+    "quantity_enable": true,
+    "variant_type": "button",
+    "enable_payment_button": false,
+    "inventory_enable": false,
+    "product_save_amount": true,
+    "product_zoom_enable": true,
+    "quick_shop_enable": false,
+    "quick_shop_text": "Quick view",
+    "product_grid_image_size": "natural",
+    "product_hover_image": true,
+    "product_color_swatches": true,
+    "collection_color_swatches": true,
+    "product_video_width": "960",
+    "product_video_height": "1280",
+    "product_video_style": "muted",
+    "product_content_1": "",
+    "product_content_collapse_1": true,
+    "product_content_2": "",
+    "product_content_collapse_2": true,
+    "product_content_3": "",
+    "product_content_collapse_3": true,
+    "product_contact": false,
+    "product_contact_title": "Ask a question",
+    "enable_product_reviews": false,
+    "reviews_layout": "expandable",
+    "collection_grid_style": "overlaid",
+    "collection_grid_shape": "square",
+    "collection_grid_image": "product",
+    "collection_grid_text_align": "center",
+    "collection_grid_tint": "#000000",
+    "collection_grid_opacity": 10,
+    "collection_grid_gutter": true,
+    "cart_type": "drawer",
+    "cart_additional_buttons": false,
+    "cart_notes_enable": false,
+    "cart_terms_conditions_enable": false,
+    "cart_terms_conditions_link": "",
+    "enable_currencies": true,
+    "currency_format": "money_with_currency_format",
+    "supported_currencies": "USD CAD INR GBP AUD EUR JPY",
+    "default_currency": "USD",
+    "social_facebook_link": "https:\/\/www.facebook.com\/TAYLRDclothing\/",
+    "social_twitter_link": "",
+    "social_pinterest_link": "",
+    "social_instagram_link": "https:\/\/www.instagram.com\/taylrdclothing\/?hl=en",
+    "social_snapchat_link": "",
+    "social_tumblr_link": "",
+    "social_linkedin_link": "",
+    "social_youtube_link": "https:\/\/www.youtube.com\/channel\/UCKVGxydNHWl3hLjJea5orvw",
+    "social_vimeo_link": "",
+    "share_facebook": true,
+    "share_twitter": true,
+    "share_pinterest": false,
+    "homepage_social_image": "shopify:\/\/shop_images\/323-min_2574b7d7-83fb-400b-89c3-b26158366cd9.jpg",
+    "favicon": "shopify:\/\/shop_images\/Favicon.jpg",
+    "show_breadcrumbs": true,
+    "search_results": "products",
+    "checkout_header_image": "",
+    "checkout_logo_image": "",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "small",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#ffffff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_accent_color": "#111111",
+    "checkout_button_color": "#111111",
+    "checkout_error_color": "#ff6d6d",
+    "breadcrumb": true,
+    "sections": {
+      "page-sections-promotions": {
+        "type": "page-sections-promotions",
+        "blocks": {
+          "1558052177163": {
+            "type": "featured-collection",
+            "settings": {
+              "title": "",
+              "collection": "memorial-day-sale",
+              "per_row": 5,
+              "rows": 5,
+              "view_all": false
+            }
+          }
+        },
+        "block_order": [
+          "1558052177163"
+        ],
+        "settings": {
+          "page_title_enable": false,
+          "page_content_enable": false
+        }
+      },
+      "header": {
+        "type": "header",
+        "blocks": {
+          "1524770014057": {
+            "type": "logo",
+            "settings": {
+              "logo": "shopify:\/\/shop_images\/OFFICIAL_LOGO-_TAYLRD_text_green_4150e7d0-d505-4908-ab73-6fa62903cb46.png",
+              "logo-inverted": "",
+              "desktop_logo_width": 140,
+              "mobile_logo_width": 110
+            }
+          },
+          "1524770292306": {
+            "type": "announcement",
+            "settings": {
+              "text": "Free Standard Shipping Over $75 | Free Express Shipping Over $150",
+              "link_text": "Shop All",
+              "link": "shopify:\/\/collections\/shop-all"
+            }
+          }
+        },
+        "block_order": [
+          "1524770014057",
+          "1524770292306"
+        ],
+        "settings": {
+          "main_menu_link_list": "new-theme-menu-01-22-2019",
+          "main_menu_alignment": "center-split",
+          "header_style": "sticky",
+          "sticky_index": false,
+          "sticky_collection": false,
+          "header_search_enable": true,
+          "toolbar_menu": "",
+          "toolbar_social": false,
+          "toolbar_currencies": false,
+          "featured_bg_1": "shopify:\/\/shop_images\/pants-min_61203d55-7792-4aca-be99-d8513fcea1c2.jpg",
+          "featured_bg_2": "shopify:\/\/shop_images\/FallG.jpg",
+          "featured_bg_3": "shopify:\/\/shop_images\/12-min.jpg",
+          "featured_bg_4": "shopify:\/\/shop_images\/ReturnsAndExchanges1.jpg",
+          "featured_bg_5": "shopify:\/\/shop_images\/ReturnsAndExchanges1.jpg",
+          "announcement_compact": true
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "1494301487049": {
+            "type": "menu",
+            "settings": {
+              "show_footer_title": true,
+              "menu": "footer-menu-left",
+              "container_width": 30
+            }
+          },
+          "1548221103352": {
+            "type": "menu",
+            "settings": {
+              "show_footer_title": true,
+              "menu": "footer",
+              "container_width": 30
+            }
+          },
+          "1494292487693": {
+            "type": "newsletter",
+            "settings": {
+              "show_footer_title": true,
+              "title": "Sign up and save",
+              "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
+              "container_width": 40
+            }
+          }
+        },
+        "block_order": [
+          "1494301487049",
+          "1548221103352",
+          "1494292487693"
+        ],
+        "settings": {
+          "show_payment_icons": false,
+          "show_copyright": false,
+          "copyright_text": ""
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "subcollection_style": "none",
+          "subcollections_per_row": 5,
+          "per_row": 3,
+          "rows_per_page": 20
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "image_position": "left",
+          "image_size": "medium",
+          "thumbnail_position": "below",
+          "description_style": "full",
+          "social_enable": true,
+          "related_enable": true,
+          "related_count": 4,
+          "recently_viewed_enable": false,
+          "recent_count": 5
+        }
+      },
+      "article-template": {
+        "type": "article-template",
+        "settings": {
+          "blog_show_tags": true,
+          "blog_show_date": true,
+          "blog_show_comments": true,
+          "blog_show_author": false,
+          "social_sharing_blog": true
+        }
+      },
+      "blog-template": {
+        "type": "blog-template",
+        "settings": {
+          "blog_show_tag_filter": true,
+          "blog_show_rss": false,
+          "blog_show_tags": true,
+          "blog_show_date": true,
+          "blog_show_comments": true,
+          "blog_show_author": false,
+          "blog_image_size": "wide"
+        }
+      },
+      "product-sections-template": {
+        "type": "product-sections-template",
+        "blocks": {
+          "product-image-row": {
+            "type": "image-row",
+            "settings": {
+              "image_1": "",
+              "image_2": "",
+              "image_3": "",
+              "image_4": "",
+              "enable_gutter": false,
+              "enable_zoom": true
+            }
+          },
+          "product-text-and-image": {
+            "type": "text-and-image",
+            "settings": {
+              "image": "",
+              "image_width": 500,
+              "subtitle": "Improved",
+              "title": "Image with text",
+              "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+              "button_label": "Optional button",
+              "button_link": "",
+              "layout": "left"
+            }
+          },
+          "product-background-image-text": {
+            "type": "background-image-text",
+            "settings": {
+              "subtitle": "Impressive",
+              "title": "Large image with text box",
+              "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\/p>",
+              "button_label": "",
+              "button_link": "",
+              "image": "",
+              "alignment": "center",
+              "color_border": "#f4f4f4",
+              "layout": "right",
+              "height": 550,
+              "parallax": true
+            }
+          },
+          "product-text-columns": {
+            "type": "text-columns",
+            "settings": {
+              "title": "",
+              "align_text": "center",
+              "enable_image_1": true,
+              "image_1": "",
+              "image_width_1": 650,
+              "title_1": "Example title",
+              "text_1": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+              "enable_image_2": true,
+              "image_2": "",
+              "image_width_2": 650,
+              "title_2": "Example title",
+              "text_2": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+              "enable_image_3": true,
+              "image_3": "",
+              "image_width_3": 650,
+              "title_3": "Example title",
+              "text_3": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>"
+            }
+          },
+          "product-hero-video": {
+            "type": "hero-video",
+            "settings": {
+              "title": "Bring your\nbrand to life.",
+              "title_size": 80,
+              "subheading": "Seamless hero videos",
+              "link_text": "Optional button",
+              "link": "",
+              "text_align": "vertical-bottom horizontal-left",
+              "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+              "section_height": "650px",
+              "mobile_height": "auto"
+            }
+          }
+        },
+        "block_order": [
+          "product-image-row",
+          "product-text-and-image",
+          "product-background-image-text",
+          "product-text-columns",
+          "product-hero-video"
+        ],
+        "settings": {
+          "image_position": "right",
+          "image_size": "medium",
+          "thumbnail_position": "beside",
+          "description_style": "default",
+          "social_enable": true,
+          "related_enable": true,
+          "related_position": "above",
+          "related_count": 5,
+          "recently_viewed_enable": true,
+          "recent_count": 5,
+          "collection_links_enable": true
+        }
+      },
+      "page-sections-template": {
+        "type": "page-sections-template",
+        "blocks": {
+          "1556224756662": {
+            "type": "image-hero",
+            "settings": {
+              "parallax": true,
+              "title": "press",
+              "title_size": 60,
+              "subheading": "What people are saying about us.",
+              "link": "",
+              "link_text": "",
+              "link_2": "",
+              "link_text_2": "",
+              "color_accent": "rgba(0,0,0,0)",
+              "text_align": "vertical-center horizontal-center",
+              "image": "shopify:\/\/shop_images\/DSC_6643-min.jpg",
+              "focal_point": "80% 50%",
+              "section_height": "450px",
+              "mobile_height": "250px"
+            }
+          },
+          "1556227465518": {
+            "type": "text-and-image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/1212-min.jpg",
+              "image_width": 500,
+              "subtitle": "Sneakhype",
+              "title": "taylrd makes the best t-shirts money can buy",
+              "text": "<p>These days, there is no shortage of companies making basic t-shirts. But few are able to do it as well as TAYLRD. TAYLRD is creating extremely comfortable, well-fitting and high quality t-shirts at super wallet friendly prices.<\/p>",
+              "button_label": "read article",
+              "button_link": "http:\/\/sneakhype.com\/more\/clothing\/2018\/08\/taylrd-makes-the-best-t-shirts-money-can-buy.html",
+              "layout": "left"
+            }
+          },
+          "1556232678351": {
+            "type": "text-and-image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/3332-min.jpg",
+              "image_width": 500,
+              "subtitle": "New York Post",
+              "title": "Former Fashion Exec  Wants To Make  Menswear Affordable",
+              "text": "<p>&ldquo;Targeting 20-somethings who are joining the workforce for the first time and need to build an affordable wardrobe.&rdquo;<\/p>",
+              "button_label": "read article",
+              "button_link": "http:\/\/nypost.com\/2017\/07\/28\/former-fashion-exec-wants-to-make-menswear-affordable\/",
+              "layout": "right"
+            }
+          },
+          "1556232669350": {
+            "type": "text-and-image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/3221-min.jpg",
+              "image_width": 500,
+              "subtitle": "Men's journal",
+              "title": "Cool and Comfortable  Short-Sleeved  Button-Downs",
+              "text": "<p>&ldquo;This brand-spanking-new company based in New York knows how to have fun without going over the top.&rdquo;<\/p>",
+              "button_label": "read article",
+              "button_link": "http:\/\/www.mensjournal.com\/style\/articles\/cool-and-comfortable-short-sleeved-button-downs-w497176",
+              "layout": "left"
+            }
+          },
+          "1556232672547": {
+            "type": "text-and-image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/32-min_4_e30b2c9a-5086-4a49-92a0-9382595e457b.jpg",
+              "image_width": 500,
+              "subtitle": "INC.",
+              "title": "Wearing Ties to Work?  This Company Wants You  to Stop Immediately",
+              "text": "<p>&ldquo;With leaders like Jobs and Zuckerberg rejecting suits and ties, Taylrd aims to help us complete the abandonment of the formal office.\"<\/p>",
+              "button_label": "read article",
+              "button_link": "https:\/\/www.inc.com\/wanda-thibodeaux\/the-brilliant-reason-this-company-wants-to-get-rid-of-ties-completely.html",
+              "layout": "right"
+            }
+          },
+          "1556232166709": {
+            "type": "text-and-image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/3231-min.jpg",
+              "image_width": 500,
+              "subtitle": "GSMagzine",
+              "title": "Men’s Classic Short & Long Sleeve Henley Shirts by Taylrd: It’s Casual",
+              "text": "<p>Casual and Comfortable without looking disheveled is how we like to describe Henley shirts for men. Wear em in, wear em out, wear em half in\/half out slap on a pair of&nbsp;<a href=\"https:\/\/gearstylemag.com\/5-of-our-fav-mens-premium-jeans\/\"><strong>premium slim fit jeans<\/strong><\/a>&nbsp;or chinos and you&rsquo;re good to go.<\/p>",
+              "button_label": "read article",
+              "button_link": "https:\/\/gearstylemag.com\/mens-classic-short-long-sleeve-henleys-shirts-by-taylrd\/",
+              "layout": "left"
+            }
+          }
+        },
+        "block_order": [
+          "1556224756662",
+          "1556227465518",
+          "1556232678351",
+          "1556232669350",
+          "1556232672547",
+          "1556232166709"
+        ],
+        "settings": {
+          "page_title_enable": false,
+          "page_content_enable": false
+        }
+      },
+      "newsletter-popup": {
+        "type": "newsletter-popup",
+        "settings": {
+          "mode": "disabled",
+          "popup_seconds": 5,
+          "popup_days": 30,
+          "popup_title": "Sign up and save",
+          "popup_image": "",
+          "popup_text": "<p>Entice customers to sign up for your mailing list with discounts or exclusive offers. Include an image for extra impact.<\/p>",
+          "close_text": "No thanks",
+          "enable_newsletter": true,
+          "button_label": "Optional button",
+          "button_link": "",
+          "enable_button": false
+        }
+      },
+      "1524769873765": {
+        "type": "slideshow",
+        "blocks": {
+          "1557183205246": {
+            "type": "image",
+            "settings": {
+              "top_subheading": "4-Way Stretch",
+              "title": "Tech Chinos",
+              "title_size": 83,
+              "subheading": "Get Them Before They're Gone.",
+              "link": "shopify:\/\/collections\/tech-chino-pants",
+              "link_text": "Shop Now",
+              "link_2": "",
+              "link_text_2": "",
+              "color_accent": "#305860",
+              "text_align": "vertical-center horizontal-center",
+              "image": "shopify:\/\/shop_images\/Hero_Tech.jpg",
+              "focal_point": "20% 50%"
+            }
+          }
+        },
+        "block_order": [
+          "1557183205246"
+        ],
+        "settings": {
+          "section_height": "750px",
+          "mobile_height": "auto",
+          "parallax": false,
+          "style": "dots",
+          "autoplay": false,
+          "autoplay_speed": 8
+        }
+      },
+      "collection-header": {
+        "type": "collection-header",
+        "settings": {
+          "enable": true,
+          "collection_image_enable": false,
+          "parallax": true
+        }
+      },
+      "collection-sidebar": {
+        "type": "collection-sidebar",
+        "blocks": {
+          "1549904928366": {
+            "type": "subcollections",
+            "settings": {
+              "enable_subsubcollections": true,
+              "enable_count": false,
+              "collapsed": true
+            }
+          },
+          "1550193252476": {
+            "type": "tags_group",
+            "settings": {
+              "title": "Fabric",
+              "tag_list": "Print\nChambray\nStretch\nSolid\nbrushed\nplaid\nPrint\nChambray\nStretch\n4-Way Stretch\nSolid\nOxford",
+              "collapsed": true
+            }
+          },
+          "1550882016099": {
+            "type": "tags_group",
+            "settings": {
+              "title": "Color",
+              "tag_list": "Khaki\nBlue\nGreen\nRed\nBlack\nWhite",
+              "collapsed": false
+            }
+          }
+        },
+        "block_order": [
+          "1549904928366",
+          "1550193252476",
+          "1550882016099"
+        ],
+        "settings": {
+          "enable_sidebar": false,
+          "filter_style": "sidebar",
+          "tags_combine": false,
+          "enable_sort": false
+        }
+      },
+      "1525295772132": {
+        "type": "featured-collection",
+        "disabled": true,
+        "settings": {
+          "title": "Restocked Tech Chino Colors",
+          "home_featured_products": "tech-chino-pants",
+          "per_row": 5,
+          "rows": 2,
+          "view_all": true,
+          "divider": false
+        }
+      },
+      "1525912530555": {
+        "type": "promo-grid",
+        "blocks": {
+          "1525912530555-0": {
+            "type": "advanced",
+            "settings": {
+              "subheading": "Keep It",
+              "heading": "Casual",
+              "textarea": "With the flexibility of athletic pants",
+              "cta_text1": "",
+              "cta_link1": "",
+              "cta_text2": "",
+              "cta_link2": "",
+              "image": "shopify:\/\/shop_images\/Grey_Tech_Chino.jpg",
+              "video_url": "",
+              "width": "50",
+              "height": 640,
+              "text_size": 135,
+              "text_align": "vertical-center horizontal-center",
+              "focal_point": "center",
+              "color_accent": "rgba(0,0,0,0)",
+              "boxed": false,
+              "framed": false
+            }
+          },
+          "1525912530555-1": {
+            "type": "advanced",
+            "settings": {
+              "subheading": "While Also Perfect For",
+              "heading": "Work",
+              "textarea": "With the durability of office slacks",
+              "cta_text1": "",
+              "cta_link1": "",
+              "cta_text2": "",
+              "cta_link2": "",
+              "image": "shopify:\/\/shop_images\/Black_Tech_Chino.jpg",
+              "video_url": "",
+              "width": "50",
+              "height": 640,
+              "text_size": 135,
+              "text_align": "vertical-center horizontal-center",
+              "focal_point": "20% 50%",
+              "color_accent": "rgba(0,0,0,0)",
+              "boxed": false,
+              "framed": false
+            }
+          }
+        },
+        "block_order": [
+          "1525912530555-0",
+          "1525912530555-1"
+        ],
+        "settings": {
+          "full_width": true,
+          "gutter_size": 40,
+          "space_above": false,
+          "space_below": false
+        }
+      },
+      "collection-promotions": {
+        "type": "collection-promotions",
+        "settings": {
+          "gutter_size": 20
+        }
+      },
+      "footer-promotions": {
+        "type": "footer-promotions",
+        "blocks": {
+          "1558039936252": {
+            "type": "promotion",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/Brushed2.jpeg",
+              "title": "WINTER CLEARANCE",
+              "text": "<p>ESSENTIALS FOR THE COOLER SEASONS<\/p>",
+              "button_label": "Shop Now",
+              "button_link": "shopify:\/\/collections\/winter-clearance"
+            }
+          },
+          "1558039991208": {
+            "type": "promotion",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/IMG_1551.JPG",
+              "title": "Tech PANTS",
+              "text": "<p>THE ONLY PANTS WORTH WEARING<\/p>",
+              "button_label": "Learn More",
+              "button_link": "shopify:\/\/pages\/tech-chinos"
+            }
+          }
+        },
+        "block_order": [
+          "1558039936252",
+          "1558039991208"
+        ],
+        "settings": {
+          "hide_homepage": false,
+          "image_size": "natural"
+        }
+      },
+      "1548220470248": {
+        "type": "advanced-content",
+        "blocks": {
+          "1548220470248-1": {
+            "type": "html",
+            "settings": {
+              "code": "<script src=\"\/\/foursixty.com\/media\/scripts\/fs.embed.v2.5.js\" data-feed-id=\"taylrd-clothing\" data-theme=\"sizes_v2_5\" data-page-size=\"14\"><\/script><style>.fs-has-links::after {  padding:  5px 7.5px; border: 1px solid #fff; color:#fff; content: \"SHOP NOW\";  }.fs-has-links:hover:after { background-color: #fff; color: rgba(49, 88, 95, 0.55)}.fs-wrapper div.fs-text-container .fs-entry-title, div.fs-detail-title{font-family:Lato;font-style:italic;font-weight:normal;}div.fs-text-container .fs-entry-date, div.fs-detail-container .fs-post-info, div.fs-wrapper div.fs-has-links::after, .fs-text-product, .fs-overlink-text{font-family:Lato;font-style:normal;font-weight:bold;}.fs-wrapper div.fs-text-container * {color:#fff}.fs-wrapper div.fs-text-container {background-color:rgba(49, 88, 95, 0.55); margin: 0px}div.fs-entry-date{display:none}div.fs-entry-title{display:none}.fs-wrapper div.fs-timeline-entry{ margin: 2px }<\/style>",
+              "width": "100%",
+              "alignment": "center"
+            }
+          }
+        },
+        "block_order": [
+          "1548220470248-1"
+        ],
+        "settings": {
+          "full_width": true,
+          "space_around": false
+        }
+      },
+      "1548220677511": {
+        "type": "advanced-content",
+        "blocks": {
+          "1548220677511-1": {
+            "type": "html",
+            "settings": {
+              "code": "<div class=\"footer-benefit-item desktop-4 tablet-4 mobile-full\">\n      <i class=\"fa fa-plane fa-2x\" aria-hidden=\"true\"><\/i>\n      <h5>Free Shipping On Orders Over $75<\/h5>\n    <\/div>",
+              "width": "33%",
+              "alignment": "center"
+            }
+          },
+          "1548220691850": {
+            "type": "html",
+            "settings": {
+              "code": "<div class=\"footer-benefit-item desktop-4 tablet-4 mobile-full \">\n      <i class=\"fa fa-exchange fa-2x\" aria-hidden=\"true\"><\/i>\n      <h5>Free Returns & Exchanges<\/h5>\n    <\/div>",
+              "width": "33%",
+              "alignment": "top-middle"
+            }
+          },
+          "1548220695489": {
+            "type": "html",
+            "settings": {
+              "code": "<div class=\"footer-benefit-item desktop-4 tablet-4 mobile-full border\">\n      <i class=\"fa fa-shield fa-2x\" aria-hidden=\"true\"><\/i>\n      <h5>Safe & Secure Checkout<\/h5>\n    <\/div>",
+              "width": "33%",
+              "alignment": "top-middle"
+            }
+          }
+        },
+        "block_order": [
+          "1548220677511-1",
+          "1548220691850",
+          "1548220695489"
+        ],
+        "settings": {
+          "full_width": false,
+          "space_around": false
+        }
+      },
+      "page-sections-about": {
+        "type": "page-sections-about",
+        "blocks": {
+          "1549487957675": {
+            "type": "image-hero",
+            "settings": {
+              "parallax": false,
+              "title": "Great style starts with a great fit",
+              "title_size": 44,
+              "subheading": "",
+              "link": "",
+              "link_text": "",
+              "link_2": "",
+              "link_text_2": "",
+              "color_accent": "rgba(0,0,0,0)",
+              "text_align": "vertical-center horizontal-center",
+              "image": "shopify:\/\/shop_images\/TAYLRDbanner.png",
+              "focal_point": "center center",
+              "section_height": "650px",
+              "mobile_height": "auto"
+            }
+          },
+          "1556236897778": {
+            "type": "rich-text",
+            "settings": {
+              "title": "In The Beginning…",
+              "text": "<p>We were surprised how difficult it was to find high-quality clothing with the right fit. The clothes that did fit were often uncomfortable or absurdly expensive&mdash;and that just didn&rsquo;t sit well with us. TAYLRD is the solution to that problem. We provide you with a comfortable, well-fitting menswear option. One that won&rsquo;t break the bank. For a tailored fit without the tailored price tag, try TAYLRD clothing.<\/p>",
+              "align_text": "center",
+              "narrow_column": true,
+              "enlarge_text": false
+            }
+          },
+          "1549488378248": {
+            "type": "text-and-image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/w1200_90b1_dressfortoday.jpg",
+              "image_width": 500,
+              "subtitle": "",
+              "title": "The TAYLRD process",
+              "text": "<p>It isn&rsquo;t easy to make clothing that fits your body, lifestyle, and budget. We&rsquo;ve curated combinations of high-end fabrics from all over the world for just the right amount of stretch. And we&rsquo;ve tested our measurements out on all shapes and sizes&mdash;so we&rsquo;re certain you can find your perfect fit here. Thanks to your feedback, our process evolves with you. That means we&rsquo;re always improving. It also means we&rsquo;re proudest when you&rsquo;re most satisfied.<\/p>",
+              "button_label": "",
+              "button_link": "",
+              "layout": "left"
+            }
+          },
+          "1549488457757": {
+            "type": "text-and-image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/w1200_1f6_dress-bottomblock.jpg",
+              "image_width": 500,
+              "subtitle": "A wardrobe",
+              "title": "Ready To Rock",
+              "text": "<p>TAYRLD is more than a pair of pants. It&rsquo;s a lifestyle. Whether you&rsquo;re headed into the office or out on the town, our clothing fits just right. It&rsquo;s stylish, comfortable, and durable. And it provides just enough stretch to match your active lifestyle.<\/p>\n<p>When your clothes fit correctly, style is effortless.<\/p>",
+              "button_label": "",
+              "button_link": "",
+              "layout": "right"
+            }
+          },
+          "1549488320341": {
+            "type": "rich-text",
+            "settings": {
+              "title": "The Goose Chase Ends Here",
+              "text": "<p>Finding the perfect fit doesn&rsquo;t have to be a hassle. It should be effortless. So give TAYLRD a shot, and find your fit. <br><br>Click here to&nbsp;<a href=\"https:\/\/www.taylrdclothing.com\/pages\/our-fit\" title=\"https:\/\/www.taylrdclothing.com\/pages\/our-fit\"><strong>FIND YOUR FIT&nbsp;<\/strong><\/a><\/p>",
+              "align_text": "center",
+              "narrow_column": true,
+              "enlarge_text": false
+            }
+          }
+        },
+        "block_order": [
+          "1549487957675",
+          "1556236897778",
+          "1549488378248",
+          "1549488457757",
+          "1549488320341"
+        ],
+        "settings": {
+          "page_title_enable": false,
+          "page_content_enable": false
+        }
+      },
+      "page-sections-bottoms": {
+        "type": "page-sections-bottoms",
+        "blocks": {
+          "1564613657187": {
+            "type": "text-and-image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Tech_Banner.jpg",
+              "image_width": 500,
+              "subtitle": "",
+              "title": "your new favorite pants",
+              "text": "<p>We've re-engineered your every-day chinos in our new 4-Way Stretch, Moisture Wicking, Spill Resistant Fabric.&nbsp;<\/p>",
+              "button_label": "Learn More",
+              "button_link": "shopify:\/\/pages\/tech-chinos",
+              "layout": "left"
+            }
+          },
+          "1564613819795": {
+            "type": "featured-collection",
+            "settings": {
+              "title": "tech Chinos",
+              "collection": "tech-chino-pants",
+              "per_row": 4,
+              "rows": 5,
+              "view_all": false
+            }
+          },
+          "1549491131304": {
+            "type": "featured-collection",
+            "settings": {
+              "title": "Tech 5 Pocket Pants",
+              "collection": "tech-5-pocket-pants",
+              "per_row": 4,
+              "rows": 3,
+              "view_all": false
+            }
+          },
+          "1571945215201": {
+            "type": "featured-collection",
+            "settings": {
+              "title": "Tech Joggers",
+              "collection": "joggers",
+              "per_row": 2,
+              "rows": 1,
+              "view_all": false
+            }
+          },
+          "1549490923401": {
+            "type": "image-hero",
+            "settings": {
+              "parallax": false,
+              "title": "Stretch Chinos",
+              "title_size": 50,
+              "subheading": "",
+              "link": "",
+              "link_text": "",
+              "link_2": "",
+              "link_text_2": "",
+              "color_accent": "rgba(0,0,0,0)",
+              "text_align": "vertical-center horizontal-center",
+              "image": "shopify:\/\/shop_images\/332-min_2.jpg",
+              "focal_point": "center center",
+              "section_height": "natural",
+              "mobile_height": "auto"
+            }
+          },
+          "1549490858811": {
+            "type": "featured-collection",
+            "settings": {
+              "title": "",
+              "collection": "mens-stretch-chino-pants",
+              "per_row": 4,
+              "rows": 5,
+              "view_all": true
+            }
+          },
+          "1549491292239": {
+            "type": "image-hero",
+            "settings": {
+              "parallax": false,
+              "title": "Stretch 5 Pocket Pants & Jeans",
+              "title_size": 51,
+              "subheading": "",
+              "link": "",
+              "link_text": "",
+              "link_2": "",
+              "link_text_2": "",
+              "color_accent": "rgba(0,0,0,0)",
+              "text_align": "vertical-center horizontal-center",
+              "image": "shopify:\/\/shop_images\/5_poocket-min_1.jpg",
+              "focal_point": "center center",
+              "section_height": "natural",
+              "mobile_height": "auto"
+            }
+          },
+          "1549491095484": {
+            "type": "featured-collection",
+            "settings": {
+              "title": "",
+              "collection": "5-pocket-pants",
+              "per_row": 4,
+              "rows": 5,
+              "view_all": false
+            }
+          },
+          "1565307829657": {
+            "type": "featured-collection",
+            "settings": {
+              "title": "Tech & Stretch Shorts",
+              "collection": "chino-shorts",
+              "per_row": 4,
+              "rows": 5,
+              "view_all": false
+            }
+          },
+          "1549491258760": {
+            "type": "image-hero",
+            "settings": {
+              "parallax": false,
+              "title": "Swim Trunks",
+              "title_size": 51,
+              "subheading": "",
+              "link": "",
+              "link_text": "",
+              "link_2": "",
+              "link_text_2": "",
+              "color_accent": "rgba(0,0,0,0)",
+              "text_align": "vertical-center horizontal-center",
+              "image": "shopify:\/\/shop_images\/swim_2048x2048-min.jpg",
+              "focal_point": "center center",
+              "section_height": "natural",
+              "mobile_height": "auto"
+            }
+          },
+          "1549491157259": {
+            "type": "featured-collection",
+            "settings": {
+              "title": "",
+              "collection": "swim",
+              "per_row": 2,
+              "rows": 1,
+              "view_all": true
+            }
+          }
+        },
+        "block_order": [
+          "1564613657187",
+          "1564613819795",
+          "1549491131304",
+          "1571945215201",
+          "1549490923401",
+          "1549490858811",
+          "1549491292239",
+          "1549491095484",
+          "1565307829657",
+          "1549491258760",
+          "1549491157259"
+        ],
+        "settings": {
+          "page_title_enable": false,
+          "page_content_enable": false
+        }
+      },
+      "page-sections-tops": {
+        "type": "page-sections-tops",
+        "blocks": {
+          "1569456119282": {
+            "type": "featured-collection",
+            "settings": {
+              "title": "Brushed Button Downs",
+              "collection": "brushed-button-downs",
+              "per_row": 5,
+              "rows": 2,
+              "view_all": false
+            }
+          },
+          "1550196471829": {
+            "type": "image-hero",
+            "settings": {
+              "parallax": false,
+              "title": "Casual Button Downs",
+              "title_size": 55,
+              "subheading": "",
+              "link": "",
+              "link_text": "",
+              "link_2": "",
+              "link_text_2": "",
+              "color_accent": "rgba(0,0,0,0)",
+              "text_align": "vertical-center horizontal-center",
+              "image": "shopify:\/\/shop_images\/321_2048x2048_619c543e-bf4f-4448-a511-a3185e7e81ba.jpg",
+              "focal_point": "center center",
+              "section_height": "natural",
+              "mobile_height": "auto"
+            }
+          },
+          "1550196518038": {
+            "type": "featured-collection",
+            "settings": {
+              "title": "",
+              "collection": "long-sleeve-shirt",
+              "per_row": 4,
+              "rows": 2,
+              "view_all": true
+            }
+          },
+          "1550196578234": {
+            "type": "image-hero",
+            "settings": {
+              "parallax": false,
+              "title": "Short Sleeve Button Down",
+              "title_size": 55,
+              "subheading": "",
+              "link": "",
+              "link_text": "",
+              "link_2": "",
+              "link_text_2": "",
+              "color_accent": "rgba(0,0,0,0)",
+              "text_align": "vertical-center horizontal-center",
+              "image": "shopify:\/\/shop_images\/33_2048x2048_f0a3d7b0-107f-488a-a878-44e899f6a961.jpg",
+              "focal_point": "center center",
+              "section_height": "natural",
+              "mobile_height": "auto"
+            }
+          },
+          "1550196608467": {
+            "type": "featured-collection",
+            "settings": {
+              "title": "",
+              "collection": "short-sleeve",
+              "per_row": 4,
+              "rows": 2,
+              "view_all": true
+            }
+          },
+          "1550196629548": {
+            "type": "image-hero",
+            "settings": {
+              "parallax": false,
+              "title": "Henleys",
+              "title_size": 55,
+              "subheading": "",
+              "link": "",
+              "link_text": "",
+              "link_2": "",
+              "link_text_2": "",
+              "color_accent": "rgba(0,0,0,0)",
+              "text_align": "vertical-center horizontal-center",
+              "image": "shopify:\/\/shop_images\/TAYLRDbanner.png",
+              "focal_point": "center center",
+              "section_height": "450px",
+              "mobile_height": "auto"
+            }
+          },
+          "1550196657122": {
+            "type": "featured-collection",
+            "settings": {
+              "title": "",
+              "collection": "henleys",
+              "per_row": 4,
+              "rows": 1,
+              "view_all": true
+            }
+          },
+          "1550196674841": {
+            "type": "image-hero",
+            "settings": {
+              "parallax": false,
+              "title": "Tees",
+              "title_size": 55,
+              "subheading": "",
+              "link": "",
+              "link_text": "",
+              "link_2": "",
+              "link_text_2": "",
+              "color_accent": "rgba(0,0,0,0)",
+              "text_align": "vertical-center horizontal-center",
+              "image": "shopify:\/\/shop_images\/tshirt3-min_2048x2048_1fe4c47e-0693-49ac-a4e9-faf048cf00fd.jpg",
+              "focal_point": "center center",
+              "section_height": "natural",
+              "mobile_height": "auto"
+            }
+          },
+          "1550196693783": {
+            "type": "featured-collection",
+            "settings": {
+              "title": "",
+              "collection": "t-shirts-1",
+              "per_row": 4,
+              "rows": 2,
+              "view_all": true
+            }
+          },
+          "1572975983650": {
+            "type": "featured-collection",
+            "settings": {
+              "title": "Hoodies & Jackets",
+              "collection": "hoodies-and-jackets",
+              "per_row": 4,
+              "rows": 2,
+              "view_all": false
+            }
+          }
+        },
+        "block_order": [
+          "1569456119282",
+          "1550196471829",
+          "1550196518038",
+          "1550196578234",
+          "1550196608467",
+          "1550196629548",
+          "1550196657122",
+          "1550196674841",
+          "1550196693783",
+          "1572975983650"
+        ],
+        "settings": {
+          "page_title_enable": false,
+          "page_content_enable": false
+        }
+      },
+      "page-sections-final-sale": {
+        "type": "page-sections-final-sale",
+        "blocks": {
+          "1565653752855": {
+            "type": "text-and-image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Clayton_Long_SLeeve.jpg",
+              "image_width": 500,
+              "subtitle": "FINAL SALE",
+              "title": "up to 70% off",
+              "text": "<p>All Your Favorite TAYLRD Items at World Class Prices<\/p>",
+              "button_label": "",
+              "button_link": "",
+              "layout": "left"
+            }
+          },
+          "1550197145577": {
+            "type": "featured-collection",
+            "settings": {
+              "title": "TOPS",
+              "collection": "final-sale-button-downs",
+              "per_row": 4,
+              "rows": 2,
+              "view_all": true
+            }
+          },
+          "1551241176024": {
+            "type": "featured-collection",
+            "settings": {
+              "title": "SHORT SLEEVE",
+              "collection": "final-sale-short-sleeve-button-downs",
+              "per_row": 4,
+              "rows": 4,
+              "view_all": true
+            }
+          },
+          "1550197241575": {
+            "type": "featured-collection",
+            "settings": {
+              "title": "BOTTOMS",
+              "collection": "final-sale-chinos",
+              "per_row": 4,
+              "rows": 5,
+              "view_all": true
+            }
+          },
+          "1550197312459": {
+            "type": "featured-collection",
+            "settings": {
+              "title": "SWIM TRUNKS",
+              "collection": "swim",
+              "per_row": 4,
+              "rows": 1,
+              "view_all": false
+            }
+          }
+        },
+        "block_order": [
+          "1565653752855",
+          "1550197145577",
+          "1551241176024",
+          "1550197241575",
+          "1550197312459"
+        ],
+        "settings": {
+          "page_title_enable": false,
+          "page_content_enable": false
+        }
+      },
+      "product-sections-jacket": {
+        "type": "product-sections-jacket",
+        "blocks": {
+          "1550281052906": {
+            "type": "text-columns",
+            "settings": {
+              "title": "",
+              "align_text": "center",
+              "enable_image_1": true,
+              "image_1": "shopify:\/\/shop_images\/DSC_9548-min.jpg",
+              "image_width_1": 650,
+              "title_1": "",
+              "text_1": "<p>With sharp, tailored silhouette, our bomber jacket is set to be your new wardrobe essential.<\/p>",
+              "enable_image_2": true,
+              "image_2": "shopify:\/\/shop_images\/DSC_9632-min.jpg",
+              "image_width_2": 650,
+              "title_2": "",
+              "text_2": "<p>Made from a premium, waterproof fabric, you can dress it up or keep it casual.<\/p>",
+              "enable_image_3": true,
+              "image_3": "shopify:\/\/shop_images\/DSC_9387-min.jpg",
+              "image_width_3": 650,
+              "title_3": "",
+              "text_3": "<p>Special collar that adjusts to the shape of your neck<\/p>\n<p><\/p>\n<p>Contrast Piping insert<\/p>\n<p><\/p>\n<p>2 interior welt packets and 1 patch pocket<\/p>"
+            }
+          },
+          "1559600556800": {
+            "type": "image-row",
+            "settings": {
+              "image_1": "shopify:\/\/shop_images\/Bomber_Footer-min.jpg",
+              "image_2": "",
+              "image_3": "",
+              "image_4": "",
+              "enable_gutter": false,
+              "enable_zoom": true
+            }
+          }
+        },
+        "block_order": [
+          "1550281052906",
+          "1559600556800"
+        ],
+        "settings": {
+          "image_position": "left",
+          "image_size": "medium",
+          "thumbnail_position": "beside",
+          "description_style": "default",
+          "social_enable": true,
+          "related_enable": true,
+          "related_position": "below",
+          "related_count": 5,
+          "recently_viewed_enable": true,
+          "recent_count": 5,
+          "collection_links_enable": true
+        }
+      },
+      "product-sections-shorts": {
+        "type": "product-sections-shorts",
+        "blocks": {
+          "1550282519840": {
+            "type": "text-columns",
+            "settings": {
+              "title": "",
+              "align_text": "center",
+              "enable_image_1": true,
+              "image_1": "shopify:\/\/shop_images\/4-min_c48d5051-de58-4b28-bb7e-fbd83810cc0b.jpg",
+              "image_width_1": 650,
+              "title_1": "",
+              "text_1": "<p>Perfect Length Sits comfortably above knee.<\/p>",
+              "enable_image_2": true,
+              "image_2": "shopify:\/\/shop_images\/6-min_2.jpg",
+              "image_width_2": 650,
+              "title_2": "",
+              "text_2": "<p>Same Great Fit and Fabrics as our Stretch Chinos&nbsp;<\/p>",
+              "enable_image_3": true,
+              "image_3": "shopify:\/\/shop_images\/5-min_2.jpg",
+              "image_width_3": 650,
+              "title_3": "",
+              "text_3": "<p>Two Back Button Pocket Closures<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "1550282519840"
+        ],
+        "settings": {
+          "image_position": "left",
+          "image_size": "medium",
+          "thumbnail_position": "below",
+          "description_style": "default",
+          "social_enable": true,
+          "related_enable": true,
+          "related_position": "below",
+          "related_count": 5,
+          "recently_viewed_enable": true,
+          "recent_count": 5,
+          "collection_links_enable": true
+        }
+      },
+      "product-sections-pants": {
+        "type": "product-sections-pants",
+        "blocks": {
+          "1550283043217": {
+            "type": "text-columns",
+            "settings": {
+              "title": "",
+              "align_text": "center",
+              "enable_image_1": true,
+              "image_1": "shopify:\/\/shop_images\/DSC_9811-min.jpg",
+              "image_width_1": 650,
+              "title_1": "",
+              "text_1": "<p>We started TAYLRD because we couldn&rsquo;t find pants that fit.&nbsp;They were either too tight or boxy. After countless fits, fabrics, and prototypes, we fixed it with our Stretch Chinos.<\/p>",
+              "enable_image_2": true,
+              "image_2": "shopify:\/\/shop_images\/DSC_9816-min.jpg",
+              "image_width_2": 650,
+              "title_2": "",
+              "text_2": "<p>Using our Signature Contoured Waistband, we can ensure that our pants curve to the natural shape of your waistline.<\/p>",
+              "enable_image_3": true,
+              "image_3": "shopify:\/\/shop_images\/DSC_9813-min.jpg",
+              "image_width_3": 650,
+              "title_3": "",
+              "text_3": "<p>A trimmer, better fitting cut and the perfect rise are the final touch to complete the perfect fit<\/p>"
+            }
+          },
+          "1559600442888": {
+            "type": "image-row",
+            "settings": {
+              "image_1": "shopify:\/\/shop_images\/Chinos-min.jpg",
+              "image_2": "",
+              "image_3": "",
+              "image_4": "",
+              "enable_gutter": false,
+              "enable_zoom": true
+            }
+          }
+        },
+        "block_order": [
+          "1550283043217",
+          "1559600442888"
+        ],
+        "settings": {
+          "image_position": "left",
+          "image_size": "medium",
+          "thumbnail_position": "beside",
+          "description_style": "default",
+          "social_enable": true,
+          "related_enable": true,
+          "related_position": "below",
+          "related_count": 5,
+          "recently_viewed_enable": true,
+          "recent_count": 5,
+          "collection_links_enable": true
+        }
+      },
+      "product-sections-hoodedjacket": {
+        "type": "product-sections-hoodedjacket",
+        "blocks": {
+          "1550878595476": {
+            "type": "text-columns",
+            "settings": {
+              "title": "",
+              "align_text": "center",
+              "enable_image_1": true,
+              "image_1": "shopify:\/\/shop_images\/DSC_9770-min.jpg",
+              "image_width_1": 650,
+              "title_1": "",
+              "text_1": "<p>The perfect transitional jacket for all seasons. Lightweight, Waterproof, with a hood for whatever weather comes at you<\/p>",
+              "enable_image_2": true,
+              "image_2": "shopify:\/\/shop_images\/DSC_9979-min.jpg",
+              "image_width_2": 650,
+              "title_2": "",
+              "text_2": "<p>2 Side Pockets and Front Chest Media Pocket<\/p>",
+              "enable_image_3": true,
+              "image_3": "shopify:\/\/shop_images\/DSC_9768-min.jpg",
+              "image_width_3": 650,
+              "title_3": "",
+              "text_3": "<p>Self Adjusting Waistband to Ensure Perfect Fit<\/p>"
+            }
+          },
+          "1559600505819": {
+            "type": "image-row",
+            "settings": {
+              "image_1": "shopify:\/\/shop_images\/Hooded_Footer-min.jpg",
+              "image_2": "",
+              "image_3": "",
+              "image_4": "",
+              "enable_gutter": false,
+              "enable_zoom": true
+            }
+          }
+        },
+        "block_order": [
+          "1550878595476",
+          "1559600505819"
+        ],
+        "settings": {
+          "image_position": "left",
+          "image_size": "medium",
+          "thumbnail_position": "beside",
+          "description_style": "default",
+          "social_enable": true,
+          "related_enable": true,
+          "related_position": "below",
+          "related_count": 5,
+          "recently_viewed_enable": true,
+          "recent_count": 5,
+          "collection_links_enable": true
+        }
+      },
+      "product-sections-longsleeve": {
+        "type": "product-sections-longsleeve",
+        "blocks": {
+          "1550880093226": {
+            "type": "text-columns",
+            "settings": {
+              "title": "",
+              "align_text": "center",
+              "enable_image_1": true,
+              "image_1": "shopify:\/\/shop_images\/DSC_9175-min.jpg",
+              "image_width_1": 650,
+              "title_1": "",
+              "text_1": "<p>Sure there are a few things men&rsquo;s shirts have in common, but that doesn&rsquo;t mean you don&rsquo;t have options. Our collection of long sleeve button downs include in a wide range of sizes, fabrics, colors and prints.<\/p>",
+              "enable_image_2": true,
+              "image_2": "shopify:\/\/shop_images\/DSC_9182-min.jpg",
+              "image_width_2": 650,
+              "title_2": "",
+              "text_2": "<p>All with our slim and standard fit options.&nbsp;Fits built for any body.<\/p>",
+              "enable_image_3": true,
+              "image_3": "shopify:\/\/shop_images\/DSC_9167-min.jpg",
+              "image_width_3": 650,
+              "title_3": "",
+              "text_3": "<p>Oxfords, Plaids, Flannels, &amp; Prints to cover you for any occasion.<\/p>"
+            }
+          },
+          "1559600288668": {
+            "type": "image-row",
+            "settings": {
+              "image_1": "shopify:\/\/shop_images\/Shirts-min_46b7b24c-fc7c-460d-a096-2153990e1807.jpg",
+              "image_2": "",
+              "image_3": "",
+              "image_4": "",
+              "enable_gutter": false,
+              "enable_zoom": true
+            }
+          }
+        },
+        "block_order": [
+          "1550880093226",
+          "1559600288668"
+        ],
+        "settings": {
+          "image_position": "left",
+          "image_size": "medium",
+          "thumbnail_position": "beside",
+          "description_style": "default",
+          "social_enable": true,
+          "related_enable": true,
+          "related_position": "below",
+          "related_count": 5,
+          "recently_viewed_enable": true,
+          "recent_count": 5,
+          "collection_links_enable": true
+        }
+      },
+      "product-sections-shortsleeve": {
+        "type": "product-sections-shortsleeve",
+        "blocks": {
+          "1550880210012": {
+            "type": "text-columns",
+            "settings": {
+              "title": "",
+              "align_text": "center",
+              "enable_image_1": true,
+              "image_1": "shopify:\/\/shop_images\/DSC_9020-min.jpg",
+              "image_width_1": 650,
+              "title_1": "",
+              "text_1": "<p>Sure there are a few things men&rsquo;s shirts have in common, but that doesn&rsquo;t mean you don&rsquo;t have options. Our collection of short and long sleeve button downs include in a wide range of sizes, fabrics, colors and prints.<\/p>",
+              "enable_image_2": true,
+              "image_2": "shopify:\/\/shop_images\/DSC_9024-min.jpg",
+              "image_width_2": 650,
+              "title_2": "",
+              "text_2": "<p>All with our slim and standard fit options. Fits built for any body.<\/p>",
+              "enable_image_3": true,
+              "image_3": "shopify:\/\/shop_images\/DSC_9028-min.jpg",
+              "image_width_3": 650,
+              "title_3": "",
+              "text_3": "<p>Oxfords, Plaids, Flannels, &amp; Prints to cover you for any occasion.&nbsp;<\/p>"
+            }
+          },
+          "1559600199446": {
+            "type": "image-row",
+            "settings": {
+              "image_1": "shopify:\/\/shop_images\/Shirts-min_46b7b24c-fc7c-460d-a096-2153990e1807.jpg",
+              "image_2": "",
+              "image_3": "",
+              "image_4": "",
+              "enable_gutter": false,
+              "enable_zoom": false
+            }
+          }
+        },
+        "block_order": [
+          "1550880210012",
+          "1559600199446"
+        ],
+        "settings": {
+          "image_position": "left",
+          "image_size": "medium",
+          "thumbnail_position": "beside",
+          "description_style": "default",
+          "social_enable": true,
+          "related_enable": true,
+          "related_position": "below",
+          "related_count": 5,
+          "recently_viewed_enable": true,
+          "recent_count": 5,
+          "collection_links_enable": true
+        }
+      },
+      "product-sections-pocketjean": {
+        "type": "product-sections-pocketjean",
+        "blocks": {
+          "1550880377975": {
+            "type": "text-columns",
+            "settings": {
+              "title": "",
+              "align_text": "center",
+              "enable_image_1": true,
+              "image_1": "shopify:\/\/shop_images\/DSC_9521-min.jpg",
+              "image_width_1": 650,
+              "title_1": "",
+              "text_1": "<p>We wanted&nbsp;5 Pocket Pants &amp; Jeans that fit just as well, and were as comfortable as our Chinos. So we made them.<\/p>",
+              "enable_image_2": true,
+              "image_2": "shopify:\/\/shop_images\/33-min_2.jpg",
+              "image_width_2": 650,
+              "title_2": "",
+              "text_2": "<p>Our most casual style. Cut with half-moon pockets and trimmed with brass rivets and a shank button fly.<\/p>",
+              "enable_image_3": true,
+              "image_3": "shopify:\/\/shop_images\/DSC_9328-min.jpg",
+              "image_width_3": 650,
+              "title_3": "",
+              "text_3": "<p>A trimmer, better fitting cut and the perfect rise are the final touch to complete the perfect fit.<\/p>"
+            }
+          },
+          "1559600627589": {
+            "type": "image-row",
+            "settings": {
+              "image_1": "shopify:\/\/shop_images\/22121-min.jpg",
+              "image_2": "",
+              "image_3": "",
+              "image_4": "",
+              "enable_gutter": false,
+              "enable_zoom": true
+            }
+          }
+        },
+        "block_order": [
+          "1550880377975",
+          "1559600627589"
+        ],
+        "settings": {
+          "image_position": "left",
+          "image_size": "medium",
+          "thumbnail_position": "beside",
+          "description_style": "default",
+          "social_enable": true,
+          "related_enable": true,
+          "related_position": "below",
+          "related_count": 5,
+          "recently_viewed_enable": true,
+          "recent_count": 5,
+          "collection_links_enable": true
+        }
+      },
+      "product-sections-henley": {
+        "type": "product-sections-henley",
+        "blocks": {
+          "1553024801206": {
+            "type": "text-columns",
+            "settings": {
+              "title": "",
+              "align_text": "center",
+              "enable_image_1": true,
+              "image_1": "shopify:\/\/shop_images\/DSC_0672-min.jpg",
+              "image_width_1": 650,
+              "title_1": "",
+              "text_1": "<p>Made in USA in small-batch, family run factories, we sourced a Cotton Slub that is breathable yet durable.<\/p>",
+              "enable_image_2": true,
+              "image_2": "shopify:\/\/shop_images\/DSC_0629-min_1.jpg",
+              "image_width_2": 650,
+              "title_2": "",
+              "text_2": "<p>3 button collar that allows you to button up or dress down.<\/p>",
+              "enable_image_3": true,
+              "image_3": "shopify:\/\/shop_images\/DSC_0187-min.jpg",
+              "image_width_3": 650,
+              "title_3": "",
+              "text_3": "<p>Lets you move how you want with out constricting in the shoulders.<\/p>"
+            }
+          },
+          "1559600591776": {
+            "type": "image-row",
+            "settings": {
+              "image_1": "shopify:\/\/shop_images\/Teeshenleys-min.jpg",
+              "image_2": "",
+              "image_3": "",
+              "image_4": "",
+              "enable_gutter": false,
+              "enable_zoom": true
+            }
+          }
+        },
+        "block_order": [
+          "1553024801206",
+          "1559600591776"
+        ],
+        "settings": {
+          "image_position": "left",
+          "image_size": "medium",
+          "thumbnail_position": "beside",
+          "description_style": "default",
+          "social_enable": true,
+          "related_enable": true,
+          "related_position": "below",
+          "related_count": 5,
+          "recently_viewed_enable": true,
+          "recent_count": 5,
+          "collection_links_enable": true
+        }
+      },
+      "1551458836150": {
+        "type": "advanced-content",
+        "blocks": {
+          "1551458848394": {
+            "type": "html",
+            "settings": {
+              "code": "<div id=\"stamped-reviews-widget\" data-widget-type=\"carousel\" data-limit-words=\"40\" data-min-rating=\"4\"><\/div>",
+              "width": "100%",
+              "alignment": "top-middle"
+            }
+          }
+        },
+        "block_order": [
+          "1551458848394"
+        ],
+        "settings": {
+          "full_width": false,
+          "space_around": false
+        }
+      },
+      "product-sections-techpants": {
+        "type": "product-sections-techpants",
+        "blocks": {
+          "1551808554325": {
+            "type": "text-columns",
+            "settings": {
+              "title": "",
+              "align_text": "center",
+              "enable_image_1": true,
+              "image_1": "shopify:\/\/shop_images\/stretch-min.jpg",
+              "image_width_1": 650,
+              "title_1": "",
+              "text_1": "<p>We&rsquo;ve combined the comfort and flexibility of your favorite athletic pants to bring you the best every day mens pants on the market.<\/p>",
+              "enable_image_2": true,
+              "image_2": "shopify:\/\/shop_images\/gray-closeup-front_1_-min.jpg",
+              "image_width_2": 650,
+              "title_2": "",
+              "text_2": "<p>For our Tech Chinos, we&rsquo;ve created a proprietary fabric that is moisture wicking, machine washable, water-resistant, and has four-way stretch.<\/p>",
+              "enable_image_3": true,
+              "image_3": "shopify:\/\/shop_images\/DSC_0193-min.jpg",
+              "image_width_3": 650,
+              "title_3": "",
+              "text_3": "<p>For the guy who needs a little extra momentum in his day, say hello to your new favorite pair of pants.<\/p>"
+            }
+          },
+          "1559600406005": {
+            "type": "image-row",
+            "settings": {
+              "image_1": "shopify:\/\/shop_images\/Chinos-min.jpg",
+              "image_2": "",
+              "image_3": "",
+              "image_4": "",
+              "enable_gutter": false,
+              "enable_zoom": true
+            }
+          }
+        },
+        "block_order": [
+          "1551808554325",
+          "1559600406005"
+        ],
+        "settings": {
+          "image_position": "left",
+          "image_size": "medium",
+          "thumbnail_position": "beside",
+          "description_style": "default",
+          "social_enable": true,
+          "related_enable": true,
+          "related_position": "below",
+          "related_count": 5,
+          "recently_viewed_enable": true,
+          "recent_count": 5,
+          "collection_links_enable": true
+        }
+      },
+      "1551968118937": {
+        "type": "slideshow",
+        "disabled": true,
+        "blocks": {
+          "1551968118937-0": {
+            "type": "image",
+            "settings": {
+              "top_subheading": "",
+              "title": "TAYLRD X SXSW",
+              "title_size": 80,
+              "subheading": "Austin TX, Come Visit Our Pop Up Store",
+              "link": "https:\/\/2019.do512.com\/events\/2019\/3\/15\/freehold-x-native-block-party-day-one",
+              "link_text": "",
+              "link_2": "",
+              "link_text_2": "",
+              "color_accent": "rgba(0,0,0,0)",
+              "text_align": "vertical-center horizontal-center",
+              "image": "shopify:\/\/shop_images\/image001-min_1.jpg",
+              "focal_point": "top center"
+            }
+          }
+        },
+        "block_order": [
+          "1551968118937-0"
+        ],
+        "settings": {
+          "section_height": "650px",
+          "mobile_height": "auto",
+          "parallax": false,
+          "style": "minimal",
+          "autoplay": true,
+          "autoplay_speed": 5
+        }
+      },
+      "1552511617886": {
+        "type": "promo-grid",
+        "blocks": {
+          "1552511633311": {
+            "type": "advanced",
+            "settings": {
+              "subheading": "french terry",
+              "heading": "Hoodies",
+              "textarea": "",
+              "cta_text1": "Shop Hoodies",
+              "cta_link1": "shopify:\/\/collections\/hoodies",
+              "cta_text2": "",
+              "cta_link2": "shopify:\/\/collections\/basics",
+              "image": "shopify:\/\/shop_images\/567865_image_3_102219.jpg",
+              "video_url": "",
+              "width": "50",
+              "height": 640,
+              "text_size": 120,
+              "text_align": "vertical-center horizontal-center",
+              "focal_point": "center",
+              "color_accent": "rgba(0,0,0,0)",
+              "boxed": false,
+              "framed": false
+            }
+          },
+          "1552511637325": {
+            "type": "advanced",
+            "settings": {
+              "subheading": "brand new color",
+              "heading": "bomber JACKETS",
+              "textarea": "",
+              "cta_text1": "Shop Jackets",
+              "cta_link1": "shopify:\/\/collections\/bomber-jacket",
+              "cta_text2": "",
+              "cta_link2": "",
+              "image": "shopify:\/\/shop_images\/DSC_0629-min_b0a98e3b-4b5f-4e01-b38b-d6b4b98ed144.jpg",
+              "video_url": "",
+              "width": "50",
+              "height": 640,
+              "text_size": 120,
+              "text_align": "vertical-center horizontal-center",
+              "focal_point": "center",
+              "color_accent": "rgba(0,0,0,0)",
+              "boxed": false,
+              "framed": false
+            }
+          }
+        },
+        "block_order": [
+          "1552511633311",
+          "1552511637325"
+        ],
+        "settings": {
+          "full_width": true,
+          "gutter_size": 40,
+          "space_above": true,
+          "space_below": false
+        }
+      },
+      "1552937407700": {
+        "type": "slideshow",
+        "disabled": true,
+        "blocks": {
+          "1552937407700-0": {
+            "type": "image",
+            "settings": {
+              "top_subheading": "TAYLRD Signature",
+              "title": "Tech Pants",
+              "title_size": 48,
+              "subheading": "",
+              "link": "shopify:\/\/pages\/tech-chinos",
+              "link_text": "Learn More",
+              "link_2": "",
+              "link_text_2": "",
+              "color_accent": "#305860",
+              "text_align": "vertical-center horizontal-center",
+              "image": "shopify:\/\/shop_images\/2019-10-22.jpg",
+              "focal_point": "80% 50%"
+            }
+          }
+        },
+        "block_order": [
+          "1552937407700-0"
+        ],
+        "settings": {
+          "section_height": "550px",
+          "mobile_height": "auto",
+          "parallax": false,
+          "style": "minimal",
+          "autoplay": false,
+          "autoplay_speed": 5
+        }
+      },
+      "1553812474759": {
+        "type": "newsletter",
+        "disabled": true,
+        "settings": {
+          "title": "",
+          "text": "<p>Subscribe to&nbsp;get <strong>20% off<\/strong>&nbsp;your first order and other exclusive deals<\/p>",
+          "color_background": "#f9f9f9",
+          "color_text": "#1c1d1d"
+        }
+      },
+      "page-sections-template-pop-up": {
+        "type": "page-sections-template-pop-up",
+        "blocks": {
+          "1556244727685": {
+            "type": "hero-video",
+            "settings": {
+              "title": "The TAYLRD\nTRAILER",
+              "title_size": 80,
+              "subheading": "Always a good time.",
+              "link_text": "",
+              "link": "",
+              "text_align": "vertical-center horizontal-center",
+              "video_url": "https:\/\/www.youtube.com\/watch?v=3LsHYdVmDww",
+              "section_height": "550px",
+              "mobile_height": "auto"
+            }
+          },
+          "1556244735007": {
+            "type": "rich-text",
+            "settings": {
+              "title": "Meet our trailer",
+              "text": "<p>Custom built to bring our shopping experience to you, our trailer is always stocked with the&nbsp;best we have to offer. Come by to feel the fabrics,&nbsp;grab a drink, and have a good time.<\/p>",
+              "align_text": "center",
+              "narrow_column": true,
+              "enlarge_text": false
+            }
+          },
+          "1556245084874": {
+            "type": "text-columns",
+            "settings": {
+              "title": "",
+              "align_text": "center",
+              "enable_image_1": true,
+              "image_1": "shopify:\/\/shop_images\/inside-min.jpg",
+              "image_width_1": 650,
+              "title_1": "shop",
+              "text_1": "<p>Come in the trailer and try on anything in our collection. With a private changing room, you can find the right fit for you.<\/p>",
+              "enable_image_2": true,
+              "image_2": "shopify:\/\/shop_images\/2-min_03c7153b-4931-40f7-a3f0-68bcba196536.jpg",
+              "image_width_2": 650,
+              "title_2": "Play",
+              "text_2": "<p>Never a lack of smiles around the trailer, our games and contest make stopping by fun.<\/p>",
+              "enable_image_3": true,
+              "image_3": "shopify:\/\/shop_images\/dreink-min.jpg",
+              "image_width_3": 650,
+              "title_3": "Hang out",
+              "text_3": "<p>Do want to shop or play games? Just come say&nbsp;\"Hey\", meet the team and learn more about our story!<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "1556244727685",
+          "1556244735007",
+          "1556245084874"
+        ],
+        "settings": {
+          "page_title_enable": false,
+          "page_content_enable": false
+        }
+      },
+      "page-sections-template-tech-chino": {
+        "type": "page-sections-template-tech-chino",
+        "blocks": {
+          "1556246241423": {
+            "type": "image-hero",
+            "settings": {
+              "parallax": false,
+              "title": "",
+              "title_size": 40,
+              "subheading": "",
+              "link": "",
+              "link_text": "",
+              "link_2": "",
+              "link_text_2": "",
+              "color_accent": "rgba(0,0,0,0)",
+              "text_align": "vertical-center horizontal-left",
+              "image": "shopify:\/\/shop_images\/banner-min.jpg",
+              "focal_point": "center center",
+              "section_height": "450px",
+              "mobile_height": "250px"
+            }
+          },
+          "1568384602748": {
+            "type": "rich-text",
+            "settings": {
+              "title": "TECH CHINOS",
+              "text": "<p>The staple every-day pant with a more classic body and taper. Features slant front pockets and buttoned back pockets.<\/p>",
+              "align_text": "center",
+              "narrow_column": true,
+              "enlarge_text": false
+            }
+          },
+          "1556246318616": {
+            "type": "featured-collection",
+            "settings": {
+              "title": "",
+              "collection": "tech-chino-pants",
+              "per_row": 3,
+              "rows": 3,
+              "view_all": false
+            }
+          },
+          "1568387292967": {
+            "type": "rich-text",
+            "settings": {
+              "title": "Tech 5 Pocket Pants",
+              "text": "<p>A more casual pant with a closer body and taper. Features denim-style upright pockets and patch.<\/p>",
+              "align_text": "center",
+              "narrow_column": true,
+              "enlarge_text": false
+            }
+          },
+          "1568387363636": {
+            "type": "featured-collection",
+            "settings": {
+              "title": "",
+              "collection": "tech-5-pocket-pants",
+              "per_row": 3,
+              "rows": 5,
+              "view_all": false
+            }
+          },
+          "1556246853810": {
+            "type": "rich-text",
+            "settings": {
+              "title": "the best pants can get.",
+              "text": "<p>We&rsquo;ve combined the comfort and flexibility of your favorite athletic pants with the durability of office slacks. Our Tech Collection features a proprietary technical fabric that is water resistant, moisture wicking, machine washable, and has four-way stretch. For the guy who wants versatility, comfort, and uncompromising style, say hello to your new favorite pair of pants.<\/p>",
+              "align_text": "center",
+              "narrow_column": true,
+              "enlarge_text": false
+            }
+          },
+          "1556246742282": {
+            "type": "text-columns",
+            "settings": {
+              "title": "",
+              "align_text": "center",
+              "enable_image_1": true,
+              "image_1": "shopify:\/\/shop_images\/1-min_9f789ccb-0d44-46ec-92ea-38f20c181f6b.jpg",
+              "image_width_1": 650,
+              "title_1": "",
+              "text_1": "",
+              "enable_image_2": true,
+              "image_2": "shopify:\/\/shop_images\/3-min_79cb2462-d05f-447f-b5c4-a687f14e5970.jpg",
+              "image_width_2": 650,
+              "title_2": "",
+              "text_2": "",
+              "enable_image_3": true,
+              "image_3": "shopify:\/\/shop_images\/2-min_21bd403e-94d7-4396-a174-07bc6ba21ab6.jpg",
+              "image_width_3": 650,
+              "title_3": "",
+              "text_3": ""
+            }
+          },
+          "1568333722609": {
+            "type": "text-columns",
+            "settings": {
+              "title": "FITS",
+              "align_text": "center",
+              "enable_image_1": true,
+              "image_1": "shopify:\/\/shop_images\/55-min.jpg",
+              "image_width_1": 650,
+              "title_1": "Taylrd fit",
+              "text_1": "<p>Our Signature Fit. Tapered from thigh through the leg down to give you the modern-day tailored look. Slimmer than our Slim Fit pants.<\/p>",
+              "enable_image_2": true,
+              "image_2": "shopify:\/\/shop_images\/66-min.jpg",
+              "image_width_2": 650,
+              "title_2": "Slim Fit",
+              "text_2": "<p>Built for guys with bigger thighs. A little more room in the seat with a more subtle taper starting at the mid-thigh.&nbsp;Extra room to breathe, but won&rsquo;t ever look loose on you.<\/p>",
+              "enable_image_3": false,
+              "image_3": "",
+              "image_width_3": 650,
+              "title_3": "",
+              "text_3": ""
+            }
+          },
+          "1556297697541": {
+            "type": "testimonials",
+            "settings": {
+              "title": "Real Reviews",
+              "align_text": "center",
+              "round_images": false,
+              "testimonial_1": "<p>Perfect Fit. Tech is where it&rsquo;s at. These pants are extremely comfortable and mobile. If I could do the splits, I would be able to do them in these pants.<\/p>",
+              "image_1": "shopify:\/\/shop_images\/star-min.jpg",
+              "author_1": "Rudy K.",
+              "testimonial_2": "<p>I bought the slim fit pant and they fit perfectly. Nice lightweight feel to the fabric and the stretch is great and super comfortable. I&rsquo;ll definitely be getting a couple more colors.<\/p>",
+              "image_2": "shopify:\/\/shop_images\/star-min.jpg",
+              "author_2": "Guido V."
+            }
+          },
+          "1556557867728": {
+            "type": "featured-collection",
+            "settings": {
+              "title": "Same tech. Less Leg.",
+              "collection": "tech-shorts",
+              "per_row": 4,
+              "rows": 2,
+              "view_all": false
+            }
+          }
+        },
+        "block_order": [
+          "1556246241423",
+          "1568384602748",
+          "1556246318616",
+          "1568387292967",
+          "1568387363636",
+          "1556246853810",
+          "1556246742282",
+          "1568333722609",
+          "1556297697541",
+          "1556557867728"
+        ],
+        "settings": {
+          "page_title_enable": false,
+          "page_content_enable": false
+        }
+      },
+      "product-sections-tech-shorts": {
+        "type": "product-sections-tech-shorts",
+        "blocks": {
+          "1558038561433": {
+            "type": "text-columns",
+            "settings": {
+              "title": "",
+              "align_text": "center",
+              "enable_image_1": true,
+              "image_1": "shopify:\/\/shop_images\/DSC_9705-min.jpg",
+              "image_width_1": 650,
+              "title_1": "",
+              "text_1": "<p>Our 4-Way Stretch material lets you move how you want, while still looking your best.<\/p>",
+              "enable_image_2": true,
+              "image_2": "shopify:\/\/shop_images\/Layer_8-min.jpg",
+              "image_width_2": 650,
+              "title_2": "",
+              "text_2": "<p>Unique 8-Inch inseam thats not too short, but still sits comfortably above the knee.<\/p>",
+              "enable_image_3": true,
+              "image_3": "shopify:\/\/shop_images\/blue-closeup-front-min.jpg",
+              "image_width_3": 650,
+              "title_3": "",
+              "text_3": "<p>Moisture wicking and liquid resistant. Moves sweat off your skin and keeps you cool on the go. With Fresh Protection against smells.<\/p>"
+            }
+          },
+          "1559941020341": {
+            "type": "image-row",
+            "settings": {
+              "image_1": "shopify:\/\/shop_images\/shorts-min.jpg",
+              "image_2": "",
+              "image_3": "",
+              "image_4": "",
+              "enable_gutter": false,
+              "enable_zoom": true
+            }
+          }
+        },
+        "block_order": [
+          "1558038561433",
+          "1559941020341"
+        ],
+        "settings": {
+          "image_position": "left",
+          "image_size": "medium",
+          "thumbnail_position": "beside",
+          "description_style": "default",
+          "social_enable": true,
+          "related_enable": true,
+          "related_position": "below",
+          "related_count": 5,
+          "recently_viewed_enable": true,
+          "recent_count": 5,
+          "collection_links_enable": true
+        }
+      },
+      "product-sections-swim": {
+        "type": "product-sections-swim",
+        "blocks": {
+          "1558032800808": {
+            "type": "text-columns",
+            "settings": {
+              "title": "",
+              "align_text": "center",
+              "enable_image_1": true,
+              "image_1": "shopify:\/\/shop_images\/3-min_cb73ffce-1298-44b7-b012-a1d724e33556.jpg",
+              "image_width_1": 650,
+              "title_1": "",
+              "text_1": "<p>7 inch inseam that sits slightly above the knee.<\/p>",
+              "enable_image_2": true,
+              "image_2": "shopify:\/\/shop_images\/2-min_ae7ec6c1-929a-4e6f-bea5-e261a95b1354.jpg",
+              "image_width_2": 650,
+              "title_2": "",
+              "text_2": "<p>Polyester baja twill and a handful of features, these trunks are the perfect mix of comfort, style, and function.<\/p>",
+              "enable_image_3": true,
+              "image_3": "shopify:\/\/shop_images\/1-min_2_4fde1324-3f5c-46b9-9676-bf8b35a9560c.jpg",
+              "image_width_3": 650,
+              "title_3": "",
+              "text_3": "<p>Elastic waistband, drawstring, two front slant pockets and one back buttoned pocket.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "1558032800808"
+        ],
+        "settings": {
+          "image_position": "left",
+          "image_size": "medium",
+          "thumbnail_position": "below",
+          "description_style": "default",
+          "social_enable": true,
+          "related_enable": true,
+          "related_position": "below",
+          "related_count": 5,
+          "recently_viewed_enable": true,
+          "recent_count": 5,
+          "collection_links_enable": true
+        }
+      },
+      "product-sections-classic-tee": {
+        "type": "product-sections-classic-tee",
+        "settings": {
+          "image_position": "left",
+          "image_size": "medium",
+          "thumbnail_position": "beside",
+          "description_style": "default",
+          "social_enable": true,
+          "related_enable": true,
+          "related_position": "above",
+          "related_count": 5,
+          "recently_viewed_enable": true,
+          "recent_count": 5,
+          "collection_links_enable": true
+        }
+      },
+      "product-sections-vneck": {
+        "type": "product-sections-vneck",
+        "settings": {
+          "image_position": "left",
+          "image_size": "medium",
+          "thumbnail_position": "beside",
+          "description_style": "default",
+          "social_enable": true,
+          "related_enable": true,
+          "related_position": "above",
+          "related_count": 5,
+          "recently_viewed_enable": true,
+          "recent_count": 5,
+          "collection_links_enable": true
+        }
+      },
+      "product-sections-tech-5-pocket": {
+        "type": "product-sections-tech-5-pocket",
+        "settings": {
+          "image_position": "left",
+          "image_size": "medium",
+          "thumbnail_position": "beside",
+          "description_style": "default",
+          "social_enable": true,
+          "related_enable": true,
+          "related_position": "above",
+          "related_count": 5,
+          "recently_viewed_enable": true,
+          "recent_count": 5,
+          "collection_links_enable": true
+        }
+      },
+      "product-sections-brushed-button-down": {
+        "type": "product-sections-brushed-button-down",
+        "settings": {
+          "image_position": "left",
+          "image_size": "medium",
+          "thumbnail_position": "beside",
+          "description_style": "default",
+          "social_enable": true,
+          "related_enable": true,
+          "related_position": "above",
+          "related_count": 5,
+          "recently_viewed_enable": true,
+          "recent_count": 5,
+          "collection_links_enable": true
+        }
+      },
+      "product-sections-jogger": {
+        "type": "product-sections-jogger",
+        "settings": {
+          "image_position": "left",
+          "image_size": "medium",
+          "thumbnail_position": "beside",
+          "description_style": "default",
+          "social_enable": true,
+          "related_enable": true,
+          "related_position": "above",
+          "related_count": 5,
+          "recently_viewed_enable": true,
+          "recent_count": 5,
+          "collection_links_enable": true
+        }
+      },
+      "product-sections-hoodie": {
+        "type": "product-sections-hoodie",
+        "settings": {
+          "image_position": "left",
+          "image_size": "medium",
+          "thumbnail_position": "beside",
+          "description_style": "default",
+          "social_enable": true,
+          "related_enable": true,
+          "related_position": "above",
+          "related_count": 5,
+          "recently_viewed_enable": true,
+          "recent_count": 5,
+          "collection_links_enable": true
+        }
+      },
+      "page-sections-shop-the-sale": {
+        "type": "page-sections-shop-the-sale",
+        "blocks": {
+          "1572470325145": {
+            "type": "text-and-image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/585184_CyberMonday2_111919.jpg",
+              "image_width": 500,
+              "subtitle": "",
+              "title": "The Cyber Monday Sale",
+              "text": "<p>50% off the entire site. Yes, 50%! Use code \"Yes50\" at checkout.<\/p>",
+              "button_label": "",
+              "button_link": "",
+              "layout": "left"
+            }
+          },
+          "1572389909135": {
+            "type": "featured-collection",
+            "settings": {
+              "title": "Henleys",
+              "collection": "henleys",
+              "per_row": 4,
+              "rows": 4,
+              "view_all": true
+            }
+          },
+          "1572389237465": {
+            "type": "featured-collection",
+            "settings": {
+              "title": "Brushed Button Downs",
+              "collection": "brushed-button-downs",
+              "per_row": 4,
+              "rows": 5,
+              "view_all": true
+            }
+          },
+          "1572389754589": {
+            "type": "featured-collection",
+            "settings": {
+              "title": "Long Sleeve Button Downs",
+              "collection": "long-sleeve-shirt",
+              "per_row": 4,
+              "rows": 4,
+              "view_all": true
+            }
+          },
+          "1572389845480": {
+            "type": "featured-collection",
+            "settings": {
+              "title": "Short Sleeve Button Downs",
+              "collection": "short-sleeve",
+              "per_row": 4,
+              "rows": 5,
+              "view_all": true
+            }
+          },
+          "1572389971695": {
+            "type": "featured-collection",
+            "settings": {
+              "title": "Hoodies and Jackets",
+              "collection": "hoodies-and-jackets",
+              "per_row": 4,
+              "rows": 4,
+              "view_all": true
+            }
+          },
+          "1572389995149": {
+            "type": "featured-collection",
+            "settings": {
+              "title": "Tech Chinos",
+              "collection": "tech-chino-pants",
+              "per_row": 3,
+              "rows": 3,
+              "view_all": true
+            }
+          },
+          "1572390053726": {
+            "type": "featured-collection",
+            "settings": {
+              "title": "tech 5 pocket",
+              "collection": "tech-5-pocket-pants",
+              "per_row": 3,
+              "rows": 2,
+              "view_all": false
+            }
+          },
+          "1572390096399": {
+            "type": "featured-collection",
+            "settings": {
+              "title": "Joggers",
+              "collection": "joggers",
+              "per_row": 2,
+              "rows": 1,
+              "view_all": false
+            }
+          },
+          "1572390130408": {
+            "type": "featured-collection",
+            "settings": {
+              "title": "Stack Savings on warehouse Items",
+              "collection": "final-sale",
+              "per_row": 4,
+              "rows": 5,
+              "view_all": true
+            }
+          }
+        },
+        "block_order": [
+          "1572470325145",
+          "1572389909135",
+          "1572389237465",
+          "1572389754589",
+          "1572389845480",
+          "1572389971695",
+          "1572389995149",
+          "1572390053726",
+          "1572390096399",
+          "1572390130408"
+        ],
+        "settings": {
+          "page_title_enable": false,
+          "page_content_enable": false
+        }
+      },
+      "1573587625483": {
+        "type": "slideshow",
+        "disabled": true,
+        "blocks": {
+          "1573587625483-0": {
+            "type": "image",
+            "settings": {
+              "top_subheading": "",
+              "title": "",
+              "title_size": 80,
+              "subheading": "",
+              "link": "shopify:\/\/collections\/under-30",
+              "link_text": "",
+              "link_2": "",
+              "link_text_2": "",
+              "color_accent": "rgba(0,0,0,0)",
+              "text_align": "vertical-center horizontal-center",
+              "image": "shopify:\/\/shop_images\/Features.png",
+              "focal_point": "center center"
+            }
+          }
+        },
+        "block_order": [
+          "1573587625483-0"
+        ],
+        "settings": {
+          "section_height": "natural",
+          "mobile_height": "auto",
+          "parallax": false,
+          "style": "minimal",
+          "autoplay": false,
+          "autoplay_speed": 5
+        }
+      },
+      "1574112893699": {
+        "type": "featured-collection",
+        "settings": {
+          "title": "",
+          "home_featured_products": "winter-clearance",
+          "per_row": 5,
+          "rows": 5,
+          "view_all": true,
+          "divider": false
+        }
+      },
+      "1574113381539": {
+        "type": "featured-content",
+        "settings": {
+          "title": "Winter Clearance",
+          "text": "<p>Essentials at a fraction of the cost<\/p>",
+          "align_text": "center",
+          "narrow_column": false,
+          "enlarge_text": true,
+          "divider": false
+        }
+      },
+      "1578351317000": {
+        "type": "text-and-image",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Blue_Tech_Chino_Bike_HP_86c2f857-a182-4249-a389-7a71509bcf76.jpg",
+          "image_width": 500,
+          "subtitle": "",
+          "title": "Your New Favorite Pair of Pants",
+          "text": "<p>Our Tech Collection features a unique fabric with numerous features, along with multiple modern fits.<\/p>",
+          "button_label": "Learn More",
+          "button_link": "shopify:\/\/pages\/tech-chinos",
+          "layout": "left",
+          "divider": false
+        }
+      }
+    },
+    "content_for_index": [
+      "1524769873765",
+      "1578351317000",
+      "1525912530555",
+      "1574113381539",
+      "1574112893699",
+      "1552511617886",
+      "1553812474759",
+      "1573587625483",
+      "1525295772132",
+      "1552937407700",
+      "1548220470248",
+      "1551458836150",
+      "1551968118937",
+      "1548220677511"
+    ]
+  },
+  "presets": {
+    "Modern": {
+      "color_body_bg": "#ffffff",
+      "color_body_text": "#000000",
+      "color_price": "#1c1d1d",
+      "color_savings_text": "#ff4e4e",
+      "color_borders": "#e8e8e1",
+      "color_button": "#111111",
+      "color_button_text": "#fff",
+      "color_cart_dot": "#ff4f33",
+      "color_small_image_bg": "#fff",
+      "color_large_image_bg": "#0f0f0f",
+      "color_header": "#fff",
+      "color_header_text": "#000",
+      "color_announcement": "#0f0f0f",
+      "color_announcement_text": "#fff",
+      "color_footer": "#ffffff",
+      "color_footer_text": "#000000",
+      "color_drawer_background": "#ffffff",
+      "color_drawer_text": "#000000",
+      "color_drawer_border": "#e8e8e1",
+      "color_drawer_button": "#111111",
+      "color_drawer_button_text": "#ffffff",
+      "color_modal_overlays": "#e6e6e6",
+      "color_image_overlay": "#000",
+      "color_image_overlay_text_shadow": 20,
+      "type_header_font_family": "bauer_bodoni_n7",
+      "type_header_spacing": "0",
+      "type_header_base_size": 40,
+      "type_header_line_height": 1,
+      "type_header_capitalize": false,
+      "type_headers_align_text": true,
+      "type_base_font_family": "futura_n4",
+      "type_base_spacing": "25",
+      "type_base_size": 17,
+      "type_base_line_height": 1.6,
+      "type_body_align_text": true,
+      "type_navigation_style": "body",
+      "type_navigation_size": 18,
+      "type_product_style": "body",
+      "type_collection_font": "heading",
+      "type_collection_size": 26,
+      "button_style": "square",
+      "icon_weight": "3px",
+      "icon_linecaps": "miter",
+      "vendor_enable": false,
+      "sku_enable": false,
+      "quantity_enable": false,
+      "variant_type": "button",
+      "inventory_enable": true,
+      "quick_shop_text": "Quick view",
+      "product_grid_image_size": "natural",
+      "product_hover_image": false,
+      "product_color_swatches": false,
+      "collection_color_swatches": false,
+      "product_video_width": "960",
+      "product_video_height": "1280",
+      "product_video_style": "muted",
+      "product_contact": false,
+      "product_contact_title": "Ask a question",
+      "collection_grid_style": "overlaid",
+      "collection_grid_shape": "square",
+      "collection_grid_image": "product",
+      "collection_grid_text_align": "center",
+      "collection_grid_tint": "#000000",
+      "collection_grid_opacity": 10,
+      "collection_grid_gutter": true,
+      "cart_type": "drawer",
+      "cart_notes_enable": false,
+      "cart_terms_conditions_enable": false,
+      "currency_format": "money_format",
+      "supported_currencies": "USD CAD INR GBP AUD EUR JPY",
+      "social_facebook_link": "https:\/\/www.facebook.com\/shopify",
+      "social_pinterest_link": "https:\/\/www.pinterest.com\/shopify",
+      "social_instagram_link": "https:\/\/instagram.com\/shopify",
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "show_breadcrumbs": false,
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "small",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_accent_color": "#111111",
+      "checkout_button_color": "#111111",
+      "checkout_error_color": "#ff6d6d",
+      "breadcrumb": true,
+      "sections": {
+        "header": {
+          "type": "header",
+          "blocks": {
+            "1524770014057": {
+              "type": "logo",
+              "settings": {
+                "desktop_logo_width": 140,
+                "mobile_logo_width": 110
+              }
+            },
+            "1524770292306": {
+              "type": "announcement",
+              "settings": {
+                "text": "Free shipping",
+                "link_text": "On all orders over $100"
+              }
+            },
+            "1524770296206": {
+              "type": "announcement",
+              "settings": {
+                "text": "Hassle-free returns",
+                "link_text": "30-day postage paid returns"
+              }
+            }
+          },
+          "block_order": [
+            "1524770014057",
+            "1524770292306",
+            "1524770296206"
+          ],
+          "settings": {
+            "main_menu_link_list": "main-menu",
+            "main_menu_alignment": "center-split",
+            "header_style": "sticky",
+            "sticky_index": false,
+            "sticky_collection": false,
+            "header_search_enable": true,
+            "toolbar_menu": "top",
+            "toolbar_social": true,
+            "announcement_compact": true
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "1494301487048": {
+              "type": "logo_social",
+              "settings": {
+                "container_width": 95
+              }
+            },
+            "1494301487049": {
+              "type": "menu",
+              "settings": {
+                "menu": "footer",
+                "container_width": 25
+              }
+            },
+            "1494292487693": {
+              "type": "newsletter",
+              "settings": {
+                "container_width": 33
+              }
+            }
+          },
+          "block_order": [
+            "1494301487049",
+            "1494292487693",
+            "1494301487048"
+          ],
+          "settings": {
+            "show_payment_icons": false
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "subcollection_style": "above",
+            "subcollections_per_row": 5,
+            "per_row": 4
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "image_size": "large",
+            "social_enable": true,
+            "related_enable": true,
+            "related_count": 5,
+            "recently_viewed_enable": true,
+            "recent_count": 5
+          }
+        },
+        "article-template": {
+          "type": "article-template",
+          "settings": {
+            "blog_show_tags": true,
+            "blog_show_date": true,
+            "blog_show_comments": true,
+            "blog_show_author": false,
+            "social_sharing_blog": true
+          }
+        },
+        "1498163293234": {
+          "type": "featured-content",
+          "settings": {
+            "align_text": "center",
+            "narrow_column": false,
+            "enlarge_text": true,
+            "divider": false
+          }
+        },
+        "blog-template": {
+          "type": "blog-template",
+          "settings": {
+            "blog_show_tag_filter": true,
+            "blog_show_rss": false,
+            "blog_show_tags": true,
+            "blog_show_date": true,
+            "blog_show_comments": true,
+            "blog_show_author": false,
+            "blog_image_size": "wide"
+          }
+        },
+        "1499789718857": {
+          "type": "featured-collections",
+          "blocks": {
+            "1499789718857-0": {
+              "type": "collection",
+              "settings": {}
+            },
+            "1499789718857-1": {
+              "type": "collection",
+              "settings": {}
+            },
+            "1499789718857-2": {
+              "type": "collection",
+              "settings": {}
+            },
+            "1499789718857-3": {
+              "type": "collection",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "1499789718857-0",
+            "1499789718857-1",
+            "1499789718857-2",
+            "1499789718857-3"
+          ],
+          "settings": {
+            "title": "Shop by category",
+            "divider": false,
+            "per_row": 4,
+            "enable_gutter": true
+          }
+        },
+        "1499790633921": {
+          "type": "background-image-text",
+          "settings": {
+            "button_link": "shopify:\/\/collections\/all",
+            "focal_point": "80% 0",
+            "color_border": "#cdb8ac",
+            "layout": "left",
+            "height": 750,
+            "framed": false,
+            "parallax": true
+          }
+        },
+        "product-sections-template": {
+          "type": "product-sections-template",
+          "blocks": {
+            "product-image-row": {
+              "type": "image-row",
+              "settings": {
+                "enable_gutter": false,
+                "enable_zoom": true
+              }
+            },
+            "product-text-and-image": {
+              "type": "text-and-image",
+              "settings": {
+                "layout": "left"
+              }
+            },
+            "product-background-image-text": {
+              "type": "background-image-text",
+              "settings": {
+                "alignment": "center",
+                "color_border": "#f4f4f4",
+                "layout": "right",
+                "height": 550,
+                "parallax": true
+              }
+            },
+            "product-text-columns": {
+              "type": "text-columns",
+              "settings": {}
+            },
+            "product-hero-video": {
+              "type": "hero-video",
+              "settings": {
+                "text_align": "vertical-bottom horizontal-left",
+                "section_height": "650px",
+                "mobile_height": "auto"
+              }
+            }
+          },
+          "block_order": [
+            "product-image-row",
+            "product-text-and-image",
+            "product-background-image-text",
+            "product-text-columns",
+            "product-hero-video"
+          ],
+          "settings": {
+            "image_size": "medium",
+            "social_enable": true,
+            "related_enable": true,
+            "related_position": "above",
+            "related_count": 5,
+            "collection_links_enable": true
+          }
+        },
+        "page-sections-template": {
+          "type": "page-sections-template",
+          "blocks": {
+            "page-image-hero": {
+              "type": "image-hero",
+              "settings": {}
+            },
+            "page-rich-text": {
+              "type": "rich-text",
+              "settings": {
+                "align_text": "center",
+                "narrow_column": true,
+                "enlarge_text": true
+              }
+            },
+            "page-text-columns": {
+              "type": "text-columns",
+              "settings": {}
+            },
+            "page-background-image-text": {
+              "type": "background-image-text",
+              "settings": {
+                "alignment": "center",
+                "color_border": "#f4f4f4",
+                "layout": "right",
+                "height": 550
+              }
+            },
+            "page-featured-collection": {
+              "type": "featured-collection",
+              "settings": {
+                "title": "Featured collection",
+                "per_row": 4,
+                "rows": 1,
+                "view_all": true
+              }
+            }
+          },
+          "block_order": [
+            "page-image-hero",
+            "page-rich-text",
+            "page-text-columns",
+            "page-background-image-text",
+            "page-featured-collection"
+          ],
+          "settings": {
+            "page_title_enable": false,
+            "page_content_enable": false
+          }
+        },
+        "newsletter-popup": {
+          "type": "newsletter-popup",
+          "settings": {}
+        },
+        "1524769873765": {
+          "type": "slideshow",
+          "blocks": {
+            "1524769873765-0": {
+              "type": "image",
+              "settings": {
+                "title_size": 80,
+                "link": "shopify:\/\/collections\/all",
+                "link_text": "Shop all",
+                "text_align": "vertical-center horizontal-left",
+                "focal_point": "top center"
+              }
+            }
+          },
+          "block_order": [
+            "1524769873765-0"
+          ],
+          "settings": {
+            "section_height": "750px",
+            "mobile_height": "auto",
+            "parallax": true,
+            "style": "minimal",
+            "autoplay": false,
+            "autoplay_speed": 7
+          }
+        },
+        "collection-header": {
+          "type": "collection-header",
+          "settings": {
+            "enable": true,
+            "collection_image_enable": true,
+            "parallax": true
+          }
+        },
+        "collection-sidebar": {
+          "type": "collection-sidebar",
+          "blocks": {
+            "1524772785241": {
+              "type": "subcollections",
+              "settings": {}
+            },
+            "1524772580942": {
+              "type": "tags_all",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "1524772785241",
+            "1524772580942"
+          ],
+          "settings": {
+            "enable_sidebar": true,
+            "filter_style": "sidebar",
+            "tags_combine": false,
+            "enable_sort": true
+          }
+        },
+        "1525115199973": {
+          "type": "blog-posts",
+          "settings": {
+            "title": "From the journal",
+            "blog": "news",
+            "post_limit": 3,
+            "blog_show_tags": false,
+            "blog_show_date": true,
+            "blog_show_comments": false,
+            "blog_show_author": false,
+            "view_all": true,
+            "blog_image_size": "wide",
+            "divider": false
+          }
+        },
+        "1525118065355": {
+          "type": "map",
+          "settings": {}
+        },
+        "1525295772132": {
+          "type": "featured-collection",
+          "settings": {
+            "per_row": 4,
+            "rows": 1,
+            "view_all": true,
+            "divider": false
+          }
+        },
+        "1525886124958": {
+          "type": "promo-grid",
+          "blocks": {
+            "1525886482727": {
+              "type": "advanced",
+              "settings": {
+                "cta_link1": "shopify:\/\/collections\/all",
+                "width": "100",
+                "height": 720,
+                "text_size": 120,
+                "focal_point": "80% 50%",
+                "boxed": false,
+                "framed": false
+              }
+            },
+            "1525886854810": {
+              "type": "sale_collection",
+              "settings": {
+                "width": "50",
+                "boxed": false,
+                "framed": true
+              }
+            },
+            "1525911710924": {
+              "type": "sale_collection",
+              "settings": {
+                "width": "50",
+                "boxed": false,
+                "framed": true
+              }
+            }
+          },
+          "block_order": [
+            "1525886482727",
+            "1525886854810",
+            "1525911710924"
+          ],
+          "settings": {
+            "full_width": false,
+            "gutter_size": 20,
+            "space_above": false,
+            "space_below": false
+          }
+        },
+        "1525912530555": {
+          "type": "promo-grid",
+          "blocks": {
+            "1525912530555-0": {
+              "type": "advanced",
+              "settings": {
+                "cta_link1": "shopify:\/\/collections\/all",
+                "width": "50",
+                "height": 800,
+                "text_size": 120,
+                "text_align": "vertical-center horizontal-center",
+                "focal_point": "center",
+                "boxed": false,
+                "framed": true
+              }
+            },
+            "1525912530555-1": {
+              "type": "advanced",
+              "settings": {
+                "cta_link1": "shopify:\/\/collections\/all",
+                "width": "50",
+                "height": 500,
+                "text_size": 120,
+                "text_align": "vertical-bottom horizontal-center",
+                "focal_point": "80% 50%",
+                "boxed": true,
+                "framed": false
+              }
+            }
+          },
+          "block_order": [
+            "1525912530555-0",
+            "1525912530555-1"
+          ],
+          "settings": {
+            "full_width": true,
+            "gutter_size": 20,
+            "space_above": false,
+            "space_below": false
+          }
+        },
+        "1526068199595": {
+          "type": "instagram",
+          "settings": {}
+        },
+        "collection-promotions": {
+          "type": "collection-promotions",
+          "blocks": {
+            "1526403837307": {
+              "type": "banner",
+              "settings": {
+                "link": "shopify:\/\/collections\/all",
+                "label": "Shop now",
+                "color_tint": "#e95454",
+                "color_tint_opacity": 10,
+                "framed": false
+              }
+            },
+            "1526496043079": {
+              "type": "advanced",
+              "settings": {
+                "cta_link1": "shopify:\/\/collections\/all",
+                "width": "100",
+                "height": 500,
+                "text_size": 120,
+                "text_align": "vertical-center horizontal-center",
+                "focal_point": "center",
+                "boxed": false,
+                "framed": true
+              }
+            }
+          },
+          "block_order": [
+            "1526403837307",
+            "1526496043079"
+          ],
+          "settings": {
+            "gutter_size": 20
+          }
+        }
+      },
+      "content_for_index": [
+        "1524769873765",
+        "1498163293234",
+        "1525912530555",
+        "1499789718857",
+        "1525886124958",
+        "1525295772132",
+        "1499790633921",
+        "1525115199973",
+        "1525118065355",
+        "1526068199595"
+      ]
+    },
+    "Vintage": {
+      "color_body_bg": "#ffffff",
+      "color_body_text": "#000000",
+      "color_price": "#1c1d1d",
+      "color_savings_text": "#72acc7",
+      "color_borders": "#f2f2f2",
+      "color_button": "#682d2d",
+      "color_button_text": "#fff",
+      "color_cart_dot": "#682d2d",
+      "color_small_image_bg": "#f7f7f9",
+      "color_large_image_bg": "#682d2d",
+      "color_header": "#ffffff",
+      "color_header_text": "#000000",
+      "color_announcement": "#6a2727",
+      "color_announcement_text": "#ffffff",
+      "color_footer": "#f7f7f9",
+      "color_footer_text": "#593b32",
+      "color_drawer_background": "#ffffff",
+      "color_drawer_text": "#000000",
+      "color_drawer_border": "#e8e8e1",
+      "color_drawer_button": "#682d2d",
+      "color_drawer_button_text": "#ffffff",
+      "color_modal_overlays": "#cdc9c2",
+      "color_image_overlay": "#000",
+      "color_image_overlay_text_shadow": 30,
+      "type_header_font_family": "americana_n8",
+      "type_header_spacing": "0",
+      "type_header_base_size": 36,
+      "type_header_line_height": 1.2,
+      "type_header_capitalize": true,
+      "type_headers_align_text": true,
+      "type_base_font_family": "avenir_next_n4",
+      "type_base_spacing": "0",
+      "type_base_size": 18,
+      "type_base_line_height": 1.5,
+      "type_body_align_text": true,
+      "type_navigation_style": "heading",
+      "type_navigation_size": 17,
+      "type_product_style": "body",
+      "type_collection_font": "heading",
+      "type_collection_size": 20,
+      "button_style": "square",
+      "icon_weight": "3px",
+      "icon_linecaps": "miter",
+      "vendor_enable": false,
+      "sku_enable": false,
+      "quantity_enable": false,
+      "variant_type": "button",
+      "inventory_enable": false,
+      "quick_shop_text": "Quick view",
+      "product_grid_image_size": "square",
+      "product_hover_image": true,
+      "product_color_swatches": false,
+      "collection_color_swatches": false,
+      "product_video_width": "1280",
+      "product_video_height": "720",
+      "product_video_style": "muted",
+      "product_contact": true,
+      "product_contact_title": "Ask a question",
+      "collection_grid_style": "below",
+      "collection_grid_shape": "landscape",
+      "collection_grid_image": "product",
+      "collection_grid_text_align": "top-center",
+      "collection_grid_tint": "#000000",
+      "collection_grid_opacity": 0,
+      "collection_grid_gutter": true,
+      "cart_type": "drawer",
+      "cart_notes_enable": false,
+      "cart_terms_conditions_enable": false,
+      "currency_format": "money_format",
+      "supported_currencies": "USD CAD INR GBP AUD EUR JPY",
+      "social_facebook_link": "https:\/\/www.facebook.com\/shopify",
+      "social_twitter_link": "https:\/\/twitter.com\/shopify",
+      "social_instagram_link": "https:\/\/instagram.com\/shopify",
+      "social_youtube_link": "https:\/\/www.youtube.com\/user\/shopify",
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "show_breadcrumbs": false,
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_color": "#f5f5f5",
+      "checkout_accent_color": "#682d2d",
+      "checkout_button_color": "#682d2d",
+      "checkout_error_color": "#ff6d6d",
+      "product_fixed_image_height": false,
+      "breadcrumb": true,
+      "sections": {
+        "header": {
+          "type": "header",
+          "blocks": {
+            "1520882467782": {
+              "type": "logo",
+              "settings": {}
+            },
+            "1521051841065": {
+              "type": "announcement",
+              "settings": {
+                "text": "Free shipping",
+                "link_text": "On all orders over $100",
+                "link": "shopify:\/\/collections\/all"
+              }
+            },
+            "1520888647304": {
+              "type": "announcement",
+              "settings": {
+                "text": "Hassle-free returns",
+                "link_text": "30-day postage paid returns",
+                "link": "shopify:\/\/collections\/all"
+              }
+            }
+          },
+          "block_order": [
+            "1520882467782",
+            "1521051841065",
+            "1520888647304"
+          ],
+          "settings": {
+            "main_menu_link_list": "main-menu",
+            "main_menu_alignment": "center-split",
+            "header_style": "normal",
+            "sticky_index": true,
+            "sticky_collection": true,
+            "header_search_enable": true,
+            "toolbar_menu": "toolbar",
+            "toolbar_social": true,
+            "announcement_compact": true
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "1494301487048": {
+              "type": "logo_social",
+              "settings": {
+                "container_width": 95
+              }
+            },
+            "1494301487049": {
+              "type": "menu",
+              "settings": {
+                "menu": "footer",
+                "container_width": 25
+              }
+            },
+            "1494292487693": {
+              "type": "newsletter",
+              "settings": {
+                "container_width": 30
+              }
+            }
+          },
+          "block_order": [
+            "1494301487049",
+            "1494292487693",
+            "1494301487048"
+          ],
+          "settings": {
+            "show_payment_icons": false
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "subcollection_style": "above",
+            "subcollections_per_row": 3,
+            "per_row": 2
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "image_size": "large",
+            "thumbnail_position": "below",
+            "social_enable": false,
+            "related_enable": true,
+            "related_count": 4,
+            "recently_viewed_enable": true,
+            "recent_count": 4
+          }
+        },
+        "article-template": {
+          "type": "article-template",
+          "settings": {
+            "blog_show_tags": true,
+            "blog_show_date": true,
+            "blog_show_comments": true,
+            "blog_show_author": false,
+            "social_sharing_blog": true
+          }
+        },
+        "1498163293234": {
+          "type": "featured-content",
+          "settings": {
+            "align_text": "center",
+            "narrow_column": true,
+            "enlarge_text": true,
+            "divider": false
+          }
+        },
+        "blog-template": {
+          "type": "blog-template",
+          "settings": {
+            "blog_show_tag_filter": true,
+            "blog_show_rss": false,
+            "blog_show_tags": true,
+            "blog_show_date": true,
+            "blog_show_comments": true,
+            "blog_show_author": false,
+            "blog_image_size": "wide"
+          }
+        },
+        "1499790633921": {
+          "type": "background-image-text",
+          "settings": {
+            "button_link": "shopify:\/\/collections\/all",
+            "focal_point": "center",
+            "color_border": "#6a635b",
+            "layout": "right",
+            "height": 750,
+            "framed": true,
+            "parallax": true
+          }
+        },
+        "product-sections-template": {
+          "type": "product-sections-template",
+          "blocks": {
+            "product-image-row": {
+              "type": "image-row",
+              "settings": {
+                "enable_gutter": false,
+                "enable_zoom": true
+              }
+            },
+            "product-text-and-image": {
+              "type": "text-and-image",
+              "settings": {
+                "layout": "left"
+              }
+            },
+            "product-background-image-text": {
+              "type": "background-image-text",
+              "settings": {
+                "alignment": "center",
+                "color_border": "#f4f4f4",
+                "layout": "right",
+                "height": 550,
+                "parallax": true
+              }
+            },
+            "product-text-columns": {
+              "type": "text-columns",
+              "settings": {}
+            },
+            "product-hero-video": {
+              "type": "hero-video",
+              "settings": {
+                "text_align": "vertical-bottom horizontal-left",
+                "section_height": "650px",
+                "mobile_height": "auto"
+              }
+            }
+          },
+          "block_order": [
+            "product-image-row",
+            "product-text-and-image",
+            "product-background-image-text",
+            "product-text-columns",
+            "product-hero-video"
+          ],
+          "settings": {
+            "image_size": "medium",
+            "social_enable": true,
+            "related_enable": true,
+            "related_position": "below",
+            "related_count": 4,
+            "collection_links_enable": true
+          }
+        },
+        "page-sections-template": {
+          "type": "page-sections-template",
+          "blocks": {
+            "page-rich-text": {
+              "type": "rich-text",
+              "settings": {
+                "align_text": "center",
+                "narrow_column": true,
+                "enlarge_text": true
+              }
+            },
+            "page-text-columns": {
+              "type": "text-columns",
+              "settings": {}
+            },
+            "page-background-image-text": {
+              "type": "background-image-text",
+              "settings": {
+                "alignment": "center",
+                "color_border": "#f4f4f4",
+                "layout": "right",
+                "height": 550
+              }
+            },
+            "page-featured-collection": {
+              "type": "featured-collection",
+              "settings": {
+                "per_row": 4,
+                "rows": 1,
+                "view_all": true
+              }
+            }
+          },
+          "block_order": [
+            "page-rich-text",
+            "page-text-columns",
+            "page-background-image-text",
+            "page-featured-collection"
+          ],
+          "settings": {
+            "page_title_enable": false,
+            "page_content_enable": false
+          }
+        },
+        "newsletter-popup": {
+          "type": "newsletter-popup",
+          "settings": {}
+        },
+        "collection-header": {
+          "type": "collection-header",
+          "settings": {
+            "enable": true,
+            "collection_image_enable": true,
+            "parallax": true
+          }
+        },
+        "collection-sidebar": {
+          "type": "collection-sidebar",
+          "blocks": {
+            "1524772785241": {
+              "type": "subcollections",
+              "settings": {}
+            },
+            "1524772580942": {
+              "type": "tags_all",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "1524772785241",
+            "1524772580942"
+          ],
+          "settings": {
+            "enable_sidebar": true,
+            "filter_style": "sidebar",
+            "tags_combine": false,
+            "enable_sort": true
+          }
+        },
+        "1523298253705": {
+          "type": "slideshow",
+          "blocks": {
+            "1523298253705-0": {
+              "type": "image",
+              "settings": {}
+            },
+            "1523298253705-1": {
+              "type": "image",
+              "settings": {
+                "title_size": 80,
+                "text_align": "vertical-bottom horizontal-right",
+                "focal_point": "center center"
+              }
+            }
+          },
+          "block_order": [
+            "1523298253705-0",
+            "1523298253705-1"
+          ],
+          "settings": {
+            "section_height": "100vh",
+            "mobile_height": "500px",
+            "parallax": true,
+            "style": "minimal",
+            "autoplay": true,
+            "autoplay_speed": 7
+          }
+        },
+        "list-collections-template": {
+          "type": "list-collections-template",
+          "settings": {
+            "title_enable": true,
+            "display_type": "all",
+            "sort": "alphabetical",
+            "grid": "3"
+          }
+        },
+        "1523380258742": {
+          "type": "featured-collections",
+          "disabled": true,
+          "blocks": {
+            "1523380258742-0": {
+              "type": "collection",
+              "settings": {}
+            },
+            "1523380258742-1": {
+              "type": "collection",
+              "settings": {}
+            },
+            "1523380258742-2": {
+              "type": "collection",
+              "settings": {}
+            },
+            "1524685811204": {
+              "type": "collection",
+              "settings": {}
+            },
+            "1524685816171": {
+              "type": "collection",
+              "settings": {}
+            },
+            "1524685829380": {
+              "type": "collection",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "1523380258742-0",
+            "1523380258742-1",
+            "1523380258742-2",
+            "1524685811204",
+            "1524685816171",
+            "1524685829380"
+          ],
+          "settings": {
+            "divider": false,
+            "per_row": 3,
+            "enable_gutter": true
+          }
+        },
+        "1524685456938": {
+          "type": "background-image-text",
+          "settings": {
+            "button_link": "shopify:\/\/collections\/all",
+            "focal_point": "center",
+            "color_border": "#655147",
+            "layout": "right",
+            "height": 650,
+            "framed": true,
+            "parallax": true
+          }
+        },
+        "1524685919990": {
+          "type": "featured-collection",
+          "settings": {
+            "per_row": 4,
+            "rows": 1,
+            "view_all": true,
+            "divider": false
+          }
+        },
+        "1524685997883": {
+          "type": "newsletter",
+          "settings": {
+            "color_background": "#f7f7f9",
+            "color_text": "#3f2e2e"
+          }
+        },
+        "1524686167862": {
+          "type": "featured-collection",
+          "settings": {
+            "per_row": 3,
+            "rows": 1,
+            "view_all": true,
+            "divider": false
+          }
+        },
+        "1524686876171": {
+          "type": "featured-collections",
+          "blocks": {
+            "1524686876171-0": {
+              "type": "collection",
+              "settings": {}
+            },
+            "1524686876171-1": {
+              "type": "collection",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "1524686876171-0",
+            "1524686876171-1"
+          ],
+          "settings": {
+            "divider": false,
+            "per_row": 2,
+            "enable_gutter": true
+          }
+        },
+        "1525878145666": {
+          "type": "promo-grid",
+          "blocks": {
+            "1525879359021": {
+              "type": "advanced",
+              "settings": {
+                "cta_link1": "shopify:\/\/collections\/all",
+                "width": "100",
+                "height": 500,
+                "text_size": 120,
+                "text_align": "vertical-center horizontal-center",
+                "focal_point": "80% 50%",
+                "boxed": false,
+                "framed": true
+              }
+            }
+          },
+          "block_order": [
+            "1525879359021"
+          ],
+          "settings": {
+            "full_width": false,
+            "gutter_size": 20,
+            "space_above": false,
+            "space_below": false
+          }
+        },
+        "1525881294487": {
+          "type": "promo-grid",
+          "blocks": {
+            "1525881312850": {
+              "type": "banner",
+              "settings": {
+                "link": "shopify:\/\/collections\/all",
+                "label": "Learn more",
+                "color_tint": "#d69344",
+                "color_tint_opacity": 14,
+                "framed": true
+              }
+            }
+          },
+          "block_order": [
+            "1525881312850"
+          ],
+          "settings": {
+            "full_width": false,
+            "gutter_size": 0,
+            "space_above": false,
+            "space_below": false
+          }
+        },
+        "1525968536765": {
+          "type": "promo-grid",
+          "blocks": {
+            "1525968571112": {
+              "type": "product",
+              "settings": {
+                "label": "New",
+                "enable_price": true,
+                "width": "100",
+                "text_size": 100,
+                "color_tint": "#000",
+                "color_tint_opacity": 0,
+                "framed": false
+              }
+            }
+          },
+          "block_order": [
+            "1525968571112"
+          ],
+          "settings": {
+            "full_width": false,
+            "gutter_size": 20,
+            "space_above": false,
+            "space_below": false
+          }
+        },
+        "1525969002555": {
+          "type": "blog-posts",
+          "settings": {
+            "blog": "news",
+            "post_limit": 3,
+            "blog_show_tags": false,
+            "blog_show_date": true,
+            "blog_show_comments": false,
+            "blog_show_author": false,
+            "view_all": true,
+            "blog_image_size": "wide",
+            "divider": false
+          }
+        },
+        "1526333080570": {
+          "type": "instagram",
+          "settings": {}
+        },
+        "1526493275292": {
+          "type": "promo-grid",
+          "blocks": {
+            "1526493290477": {
+              "type": "sale_collection",
+              "settings": {
+                "width": "100",
+                "boxed": true,
+                "framed": true
+              }
+            }
+          },
+          "block_order": [
+            "1526493290477"
+          ],
+          "settings": {
+            "full_width": false,
+            "gutter_size": 20,
+            "space_above": false,
+            "space_below": true
+          }
+        },
+        "collection-promotions": {
+          "type": "collection-promotions",
+          "blocks": {
+            "1526501666154": {
+              "type": "sale_collection",
+              "settings": {
+                "width": "100",
+                "boxed": true,
+                "framed": true
+              }
+            },
+            "1526501699095": {
+              "type": "banner",
+              "settings": {
+                "heading": "Free shipping",
+                "link": "shopify:\/\/collections\/all",
+                "label": "Learn more",
+                "color_tint": "#d69344",
+                "color_tint_opacity": 14,
+                "framed": true
+              }
+            }
+          },
+          "block_order": [
+            "1526501666154",
+            "1526501699095"
+          ],
+          "settings": {
+            "gutter_size": 20
+          }
+        }
+      },
+      "content_for_index": [
+        "1523298253705",
+        "1498163293234",
+        "1525878145666",
+        "1523380258742",
+        "1524686876171",
+        "1526493275292",
+        "1524685456938",
+        "1524685919990",
+        "1525881294487",
+        "1524686167862",
+        "1524685997883",
+        "1499790633921",
+        "1525968536765",
+        "1525969002555",
+        "1526333080570"
+      ]
+    },
+    "Bold": {
+      "color_body_bg": "#000000",
+      "color_body_text": "#ffffff",
+      "color_price": "#d1ba98",
+      "color_savings_text": "#ff6565",
+      "color_borders": "#2b2a27",
+      "color_button": "#9f8561",
+      "color_button_text": "#ffffff",
+      "color_cart_dot": "#9f8561",
+      "color_small_image_bg": "#000000",
+      "color_large_image_bg": "#111111",
+      "color_header": "#000000",
+      "color_header_text": "#ffffff",
+      "color_announcement": "#9F8561",
+      "color_announcement_text": "#fff",
+      "color_footer": "#000000",
+      "color_footer_text": "#ffffff",
+      "color_drawer_background": "#000000",
+      "color_drawer_text": "#ffffff",
+      "color_drawer_border": "#2b2a27",
+      "color_drawer_button": "#9f8561",
+      "color_drawer_button_text": "#ffffff",
+      "color_modal_overlays": "#67635d",
+      "color_image_overlay": "#000",
+      "color_image_overlay_text_shadow": 30,
+      "type_header_font_family": "helvetica_n9",
+      "type_header_spacing": "0",
+      "type_header_base_size": 35,
+      "type_header_line_height": 0.8,
+      "type_header_capitalize": true,
+      "type_headers_align_text": true,
+      "type_base_font_family": "harmonia_sans_n4",
+      "type_base_spacing": "25",
+      "type_base_size": 17,
+      "type_base_line_height": 1.4,
+      "type_body_align_text": true,
+      "type_navigation_style": "heading",
+      "type_navigation_size": 16,
+      "type_product_style": "heading",
+      "type_collection_font": "heading",
+      "type_collection_size": 25,
+      "button_style": "angled",
+      "icon_weight": "6px",
+      "icon_linecaps": "miter",
+      "vendor_enable": false,
+      "sku_enable": false,
+      "quantity_enable": false,
+      "variant_type": "button",
+      "inventory_enable": false,
+      "quick_shop_text": "Quick view",
+      "product_grid_image_size": "square",
+      "product_hover_image": false,
+      "product_color_swatches": false,
+      "collection_color_swatches": false,
+      "product_video_width": "1280",
+      "product_video_height": "720",
+      "product_video_style": "muted",
+      "product_contact": false,
+      "product_contact_title": "Ask a question",
+      "collection_grid_style": "overlaid-box",
+      "collection_grid_shape": "landscape",
+      "collection_grid_image": "collection",
+      "collection_grid_text_align": "bottom-center",
+      "collection_grid_tint": "#000000",
+      "collection_grid_opacity": 10,
+      "collection_grid_gutter": true,
+      "cart_type": "drawer",
+      "cart_notes_enable": false,
+      "cart_terms_conditions_enable": false,
+      "currency_format": "money_format",
+      "supported_currencies": "USD CAD INR GBP AUD EUR JPY",
+      "social_facebook_link": "https:\/\/www.facebook.com\/shopify",
+      "social_twitter_link": "https:\/\/twitter.com\/shopify",
+      "social_youtube_link": "https:\/\/www.youtube.com\/user\/shopify",
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "show_breadcrumbs": false,
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "small",
+      "checkout_body_background_color": "#000000",
+      "checkout_input_background_color_mode": "transparent",
+      "checkout_sidebar_background_color": "#000000",
+      "checkout_accent_color": "#ae9878",
+      "checkout_button_color": "#ae9878",
+      "checkout_error_color": "#ff6d6d",
+      "breadcrumb": true,
+      "sections": {
+        "header": {
+          "type": "header",
+          "blocks": {
+            "1524768779513": {
+              "type": "logo",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "1524768779513"
+          ],
+          "settings": {
+            "main_menu_link_list": "main-menu",
+            "main_menu_alignment": "left-center",
+            "header_style": "normal",
+            "sticky_index": true,
+            "sticky_collection": false,
+            "header_search_enable": false,
+            "toolbar_social": false,
+            "announcement_compact": false
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "1494292487693": {
+              "type": "newsletter",
+              "settings": {}
+            },
+            "1526406521795": {
+              "type": "menu",
+              "settings": {
+                "menu": "footer",
+                "container_width": 25
+              }
+            },
+            "1525444454442": {
+              "type": "logo_social",
+              "settings": {
+                "container_width": 95
+              }
+            }
+          },
+          "block_order": [
+            "1494292487693",
+            "1526406521795",
+            "1525444454442"
+          ],
+          "settings": {
+            "show_payment_icons": true
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "subcollection_style": "above",
+            "subcollections_per_row": 3,
+            "per_row": 5
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "image_size": "large",
+            "social_enable": true,
+            "related_enable": true,
+            "related_count": 5,
+            "recently_viewed_enable": true,
+            "recent_count": 5
+          }
+        },
+        "article-template": {
+          "type": "article-template",
+          "settings": {
+            "blog_show_tags": true,
+            "blog_show_date": true,
+            "blog_show_comments": true,
+            "blog_show_author": false,
+            "social_sharing_blog": true
+          }
+        },
+        "blog-template": {
+          "type": "blog-template",
+          "settings": {
+            "blog_show_tag_filter": true,
+            "blog_show_rss": false,
+            "blog_show_tags": true,
+            "blog_show_date": true,
+            "blog_show_comments": true,
+            "blog_show_author": false,
+            "blog_image_size": "wide"
+          }
+        },
+        "1499790633921": {
+          "type": "background-image-text",
+          "settings": {
+            "button_link": "shopify:\/\/collections\/all",
+            "focal_point": "center",
+            "color_border": "#090909",
+            "layout": "right",
+            "height": 750,
+            "framed": false,
+            "parallax": true
+          }
+        },
+        "product-sections-template": {
+          "type": "product-sections-template",
+          "blocks": {
+            "product-background-image-text": {
+              "type": "background-image-text",
+              "settings": {
+                "button_link": "shopify:\/\/collections\/all",
+                "alignment": "top left",
+                "color_border": "#3a6815",
+                "layout": "right",
+                "height": 550,
+                "parallax": false
+              }
+            },
+            "product-text-columns": {
+              "type": "text-columns",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "product-background-image-text",
+            "product-text-columns"
+          ],
+          "settings": {
+            "image_size": "large",
+            "thumbnail_position": "below",
+            "social_enable": true,
+            "related_enable": true,
+            "related_position": "below",
+            "related_count": 5,
+            "collection_links_enable": true
+          }
+        },
+        "page-sections-template": {
+          "type": "page-sections-template",
+          "blocks": {
+            "page-rich-text": {
+              "type": "rich-text",
+              "settings": {
+                "align_text": "center",
+                "narrow_column": true,
+                "enlarge_text": true
+              }
+            },
+            "page-text-columns": {
+              "type": "text-columns",
+              "settings": {}
+            },
+            "page-background-image-text": {
+              "type": "background-image-text",
+              "settings": {
+                "alignment": "center",
+                "color_border": "#f4f4f4",
+                "layout": "right",
+                "height": 550
+              }
+            },
+            "page-featured-collection": {
+              "type": "featured-collection",
+              "settings": {
+                "per_row": 4,
+                "rows": 1,
+                "view_all": true
+              }
+            }
+          },
+          "block_order": [
+            "page-rich-text",
+            "page-text-columns",
+            "page-background-image-text",
+            "page-featured-collection"
+          ],
+          "settings": {
+            "page_title_enable": false,
+            "page_content_enable": false
+          }
+        },
+        "newsletter-popup": {
+          "type": "newsletter-popup",
+          "settings": {}
+        },
+        "1524768368258": {
+          "type": "slideshow",
+          "blocks": {
+            "1524768368258-0": {
+              "type": "image",
+              "settings": {
+                "link": "shopify:\/\/collections\/all",
+                "link_text": "Shop all",
+                "text_align": "vertical-center horizontal-left",
+                "focal_point": "top center"
+              }
+            }
+          },
+          "block_order": [
+            "1524768368258-0"
+          ],
+          "settings": {
+            "section_height": "750px",
+            "mobile_height": "auto",
+            "parallax": true,
+            "style": "minimal",
+            "autoplay": true,
+            "autoplay_speed": 5
+          }
+        },
+        "collection-header": {
+          "type": "collection-header",
+          "settings": {
+            "enable": true,
+            "collection_image_enable": false,
+            "parallax": false
+          }
+        },
+        "collection-sidebar": {
+          "type": "collection-sidebar",
+          "blocks": {
+            "1524772785241": {
+              "type": "subcollections",
+              "settings": {}
+            },
+            "1524772580942": {
+              "type": "tags_all",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "1524772785241",
+            "1524772580942"
+          ],
+          "settings": {
+            "enable_sidebar": true,
+            "filter_style": "sidebar",
+            "tags_combine": false,
+            "enable_sort": true
+          }
+        },
+        "1525290496166": {
+          "type": "featured-collections",
+          "blocks": {
+            "1525290496166-0": {
+              "type": "collection",
+              "settings": {}
+            },
+            "1525290496166-2": {
+              "type": "collection",
+              "settings": {}
+            },
+            "1525290496166-1": {
+              "type": "collection",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "1525290496166-0",
+            "1525290496166-2",
+            "1525290496166-1"
+          ],
+          "settings": {
+            "divider": false,
+            "per_row": 3,
+            "enable_gutter": true
+          }
+        },
+        "1525899982112": {
+          "type": "instagram",
+          "settings": {}
+        },
+        "1525969132569": {
+          "type": "promo-grid",
+          "blocks": {
+            "1525969870126": {
+              "type": "product",
+              "settings": {
+                "link_label": "Shop now",
+                "label": "New",
+                "enable_price": true,
+                "width": "50",
+                "text_size": 100,
+                "color_tint": "#f8ebd4",
+                "color_tint_opacity": 0,
+                "framed": true
+              }
+            },
+            "1525969996422": {
+              "type": "product",
+              "settings": {
+                "link_label": "Shop now",
+                "label": "New",
+                "enable_price": true,
+                "width": "50",
+                "text_size": 100,
+                "color_tint": "#ff0000",
+                "color_tint_opacity": 0,
+                "framed": true
+              }
+            }
+          },
+          "block_order": [
+            "1525969870126",
+            "1525969996422"
+          ],
+          "settings": {
+            "full_width": false,
+            "gutter_size": 5,
+            "space_above": false,
+            "space_below": false
+          }
+        },
+        "1526048428302": {
+          "type": "featured-collection",
+          "settings": {
+            "per_row": 4,
+            "rows": 1,
+            "view_all": false,
+            "divider": false
+          }
+        },
+        "1526048519234": {
+          "type": "newsletter",
+          "settings": {
+            "color_background": "#171615",
+            "color_text": "#ffffff"
+          }
+        },
+        "1526048620689": {
+          "type": "blog-posts",
+          "settings": {
+            "title": "Our blog",
+            "blog": "news",
+            "post_limit": 3,
+            "blog_show_tags": false,
+            "blog_show_date": true,
+            "blog_show_comments": false,
+            "blog_show_author": false,
+            "view_all": true,
+            "blog_image_size": "wide",
+            "divider": false
+          }
+        },
+        "collection-promotions": {
+          "type": "collection-promotions",
+          "blocks": {
+            "1526501090474": {
+              "type": "advanced",
+              "settings": {
+                "cta_link1": "shopify:\/\/collections\/all",
+                "width": "50",
+                "height": 400,
+                "text_size": 120,
+                "text_align": "vertical-center horizontal-center",
+                "focal_point": "center",
+                "boxed": false,
+                "framed": true
+              }
+            },
+            "1526501130849": {
+              "type": "sale_collection",
+              "settings": {
+                "width": "50",
+                "boxed": false,
+                "framed": true
+              }
+            },
+            "1526501360047": {
+              "type": "banner",
+              "settings": {
+                "label": "Shop 2017",
+                "color_tint": "#514f4b",
+                "color_tint_opacity": 20,
+                "framed": false
+              }
+            }
+          },
+          "block_order": [
+            "1526501090474",
+            "1526501130849",
+            "1526501360047"
+          ],
+          "settings": {
+            "gutter_size": 20
+          }
+        },
+        "1526480838446": {
+          "type": "background-image-text",
+          "settings": {
+            "button_link": "shopify:\/\/collections\/all",
+            "focal_point": "center",
+            "color_border": "#f4f4f4",
+            "layout": "left",
+            "height": 750,
+            "framed": false,
+            "parallax": true
+          }
+        },
+        "1526481284428": {
+          "type": "featured-content",
+          "settings": {
+            "align_text": "center",
+            "narrow_column": true,
+            "enlarge_text": true,
+            "divider": false
+          }
+        },
+        "1526481405629": {
+          "type": "promo-grid",
+          "blocks": {
+            "1526481405629-1": {
+              "type": "advanced",
+              "settings": {
+                "width": "100",
+                "height": 660,
+                "text_size": 120,
+                "text_align": "vertical-center horizontal-center",
+                "focal_point": "center",
+                "boxed": false,
+                "framed": false
+              }
+            }
+          },
+          "block_order": [
+            "1526481405629-1"
+          ],
+          "settings": {
+            "full_width": false,
+            "gutter_size": 34,
+            "space_above": false,
+            "space_below": true
+          }
+        }
+      },
+      "content_for_index": [
+        "1524768368258",
+        "1526481284428",
+        "1525969132569",
+        "1525290496166",
+        "1526048428302",
+        "1526480838446",
+        "1499790633921",
+        "1526048519234",
+        "1526048620689",
+        "1526481405629",
+        "1525899982112"
+      ]
+    }
+  }
+}

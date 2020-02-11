@@ -1,0 +1,163 @@
+{% include 'product-template',
+  image_position: section.settings.image_position,
+  image_container_width: section.settings.image_size,
+  section_id: product.id,
+  social: section.settings.social_enable,
+  thumbnail_position: section.settings.thumbnail_position
+%}
+
+{% if settings.enable_product_reviews and settings.reviews_layout == 'full' %}
+  <hr id="Reviews-{{ product.id }}" class="hr--large">
+  <div class="index-section index-section--small product-reviews product-reviews--full">
+    <div class="page-width">
+    </div>
+  </div>
+{% endif %}
+<div id="stamped-main-widget" 
+data-widget-style="standard"
+data-product-id="{{ product.id }}" 
+data-name="{{ product.title | escape }}" 
+data-url="{{ shop.url }}{{ product.url }}" 
+data-image-url="{{ product.featured_image | product_img_url: "large" |replace: '?', '%3F' | replace: '&','%26'}}" 
+data-description="{{ product.description | escape }}" 
+data-product-sku="{{product.handle}}"> 
+{{ product.metafields.stamped.reviews }} 
+</div>
+{% if section.settings.related_enable %}
+  {% unless isModal %}
+    {% include 'related-products' %}
+  {% endunless %}
+{% endif %}
+
+{% if section.settings.recently_viewed_enable %}
+  {% unless isModal %}
+    {% include 'recently-viewed' %}
+  {% endunless %}
+{% endif %}
+
+{% if collection %}
+  {% unless isModal %}
+    <div class="text-center page-content page-content--bottom">
+      <a href="{% if collection.handle == 'frontpage' %}/{% else %}{{ collection.url }}{% endif %}" class="btn btn--small return-link">
+        {% include 'icon-arrow-left' %} {{ 'products.general.collection_return' | t: collection: collection.title }}
+      </a>
+    </div>
+  {% endunless %}
+{% endif %}
+
+<script>
+  theme.settings.recentlyViewedEnabled = {{ section.settings.recently_viewed_enable | default: 'false' }};
+</script>
+
+{% schema %}
+  {
+    "name": "Product pages",
+    "settings": [
+      {
+        "type": "select",
+        "id": "image_position",
+        "label": "Images position",
+        "default": "right",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "image_size",
+        "label": "Image size",
+        "default": "medium",
+        "options": [
+          {
+            "value": "small",
+            "label": "Small"
+          },
+          {
+            "value": "medium",
+            "label": "Medium"
+          },
+          {
+            "value": "large",
+            "label": "Large"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "thumbnail_position",
+        "label": "Thumbnail position",
+        "default": "beside",
+        "options": [
+          {
+            "value": "beside",
+            "label": "Next to image"
+          },
+          {
+            "value": "below",
+            "label": "Below image"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "description_style",
+        "label": "Description position",
+        "default": "default",
+        "options": [
+          {
+            "value": "default",
+            "label": "Next to images"
+          },
+          {
+            "value": "full",
+            "label": "Below images"
+          }
+        ]
+      },
+      {
+        "type": "checkbox",
+        "id": "social_enable",
+        "label": "Enable social sharing",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "related_enable",
+        "label": "Show related products",
+        "default": true
+      },
+      {
+        "type": "range",
+        "id": "related_count",
+        "label": "Number of related products",
+        "default": 5,
+        "min": 2,
+        "max": 6,
+        "step": 1
+      },
+      {
+        "type": "checkbox",
+        "id": "recently_viewed_enable",
+        "label": "Show recently viewed products",
+        "default": true,
+        "info": "Only visible outside of the Theme Editor"
+      },
+      {
+        "type": "range",
+        "id": "recent_count",
+        "label": "Number of recent products",
+        "default": 5,
+        "min": 2,
+        "max": 10,
+        "step": 1
+      }
+    ]
+  }
+{% endschema %}

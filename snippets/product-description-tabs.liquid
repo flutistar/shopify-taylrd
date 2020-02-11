@@ -1,0 +1,74 @@
+<style>
+    .nav-tabs {
+        display: inline-flex;
+        margin-left: 0;
+    }
+
+    .nav-tabs li {
+        list-style: none;
+        padding: 5px;
+    }
+
+    .nav-tabs li a {
+        border: 0;
+        color: #8d8d8d;
+    }
+
+    .nav-tabs li a:hover {
+        cursor: pointer;
+    }
+
+    .nav-tabs .active a {
+        color: #333333 !important;
+        border-bottom: 2px solid rgba(0,0,0,0.2) !important;
+    }
+
+    .tab-content .active {
+        display: block !important;
+    }
+
+    .tab-content .tab-pane {
+        display: none;
+    }
+</style>
+{% assign description = product.description %}
+{% assign h5_split = description|split: '<h5>'%}
+<ul class="nav nav-tabs">
+{% for item in h5_split %}
+    {% unless item == "" %}
+        {% assign h5end_split = item | split: '</h5>' %}
+        {% assign content = h5end_split[0] %}
+        {% assign a_open_start = content|split: '<a'%}
+        {% assign a_open_end = a_open_start[1]| split: '>'%}
+        {% assign a_content_array = a_open_end[1]| split: '</a'%}
+        {% assign a_content = a_content_array[0] | replace: ' ', '_' %}
+        <li {% if forloop.index == 2 %}class="active {{randomNumber}}"{% endif %}><a data-toggle="tab" id="#tab_{{forloop.index}}">{{a_content_array[0]}}</a></li>     
+    {% endunless %}
+{% endfor %}
+</ul>
+<div class="tab-content">
+{% for item in h5_split %}
+    {% unless item == "" %}
+        {% assign h5end_split = item | split: '</h5>' %}
+        {% assign content = h5end_split[0] %}
+        {% assign a_open_start = content|split: '<a'%}
+        {% assign a_open_end = a_open_start[1]| split: '>'%}
+        {% assign a_content_array = a_open_end[1]| split: '</a'%}
+        {% assign a_content = a_content_array[0] | replace: ' ', '_' %}    
+        <div id="tab_{{forloop.index}}" class="tab-pane fade in {% if forloop.index == 2 %}active{% endif %}">
+            {{h5end_split[1]}}
+        </div>
+    {% endunless %}
+   
+{% endfor %}
+</div>
+<script>
+    $(".nav-tabs li").click(function(){
+        $(".nav-tabs li").removeClass("active");
+        $(this).addClass("active");
+        let id = $(this).find("a").attr("id");
+        console.log(id);
+        $(".tab-content .tab-pane").removeClass("active");
+        $(id).addClass("active");
+    });
+</script>

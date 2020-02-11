@@ -1,0 +1,5 @@
+{% if defer-script == 'vendor.js' or defer-script == 'jquery.currencies.min.js' %}
+  <script src="{{ defer-script | asset_url | split: '?' | first }}" defer="defer"></script>
+{% else %}
+  <script src="{{ defer-script | asset_url }}" defer="defer"></script>
+{% endif %}

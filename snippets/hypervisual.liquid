@@ -1,0 +1,31 @@
+{% if hypervisual_object %}
+{% elsif product %}
+    {% assign hypervisual_object = product %}
+{% elsif collection %}
+    {% assign hypervisual_object = collection %}
+{% elsif article %}
+    {% assign hypervisual_object = article %}
+{% elsif page %}
+    {% assign hypervisual_object = page %}
+{% elsif template == 'index' %}
+    {% assign hypervisual_object = pages.frontpage %}
+{% endif %}
+<div class="hypervisual__root">
+    {% if hypervisual_object.metafields.hypervisual.html or hypervisual_object.metafields.hypervisual.preview_html %}
+    <link rel="stylesheet" href="https://cdn.gethypervisual.com/assets/hypervisual.css" type="text/css" />
+    <link rel="stylesheet" media="(max-width: 767px)" href="https://cdn.gethypervisual.com/assets/hypervisual-single-column.css" type="text/css" />
+    {% if shop.metafields.hypervisual.settings %}{{ shop.metafields.hypervisual.settings }}{% endif %}
+    <div class="hypervisual__cf"></div>
+    {% if hypervisual_object.metafields.hypervisual.html %}
+	    <div class="hypervisual__container">
+    	  {{ hypervisual_object.metafields.hypervisual.html }}{{ hypervisual_object.metafields.hypervisual.html2 }}
+	    </div>
+  	{% endif %}
+    {% if hypervisual_object.metafields.hypervisual.preview_html %}
+	    <div class="hypervisual__preview_container" style="display: none;">
+    	  {{ hypervisual_object.metafields.hypervisual.preview_html }}{{ hypervisual_object.metafields.hypervisual.preview_html2 }}
+	    </div>
+  	{% endif %}
+    <div class="hypervisual__cf"></div>
+    {% endif %}
+</div>

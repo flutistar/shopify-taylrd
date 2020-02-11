@@ -1,0 +1,36 @@
+{% comment %} Please don’t update this content {% endcomment %}
+
+{% layout none %}
+{
+  "product":
+    {
+      "id":{{ product.id }},
+      "metafields":[
+        
+              {% comment %}
+                Single Metafield
+              {% endcomment %}
+              {% assign v_reviews_average = product.metafields.stamped["reviews_average"] %}
+              {% if v_reviews_average != blank %}
+                {
+                  "namespace": "stamped",
+                  "key": "reviews_average",
+                  "value": {{ v_reviews_average | json }}
+                },
+              {% endif %}
+        
+              {% comment %}
+                Single Metafield
+              {% endcomment %}
+              {% assign v_reviews_count = product.metafields.stamped["reviews_count"] %}
+              {% if v_reviews_count != blank %}
+                {
+                  "namespace": "stamped",
+                  "key": "reviews_count",
+                  "value": {{ v_reviews_count | json }}
+                },
+              {% endif %}
+        
+      ]
+    }
+}

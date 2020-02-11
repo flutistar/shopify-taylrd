@@ -1,0 +1,118 @@
+{% paginate blog.articles by 20 %}
+
+<div data-section-id="{{ section.id }}" data-section-type="blog">
+  <div class="page-width page-content">
+
+    {% include 'breadcrumbs' %}
+
+    <div class="grid">
+
+      <div class="grid__item">
+
+        <header class="section-header{% if section.settings.blog_show_tag_filter and blog.tags.size > 0 %}{% unless settings.type_headers_align_text %} section-header--with-link{% endunless %}{% endif %}">
+          <h1 class="section-header__title">
+            {{ blog.title }}
+
+            {% if section.settings.blog_show_rss %}
+              <a href="{{ shop.url }}{{ blog.url }}.atom" class="rss-link">
+                {% include 'icon-rss' %}
+                <span class="icon__fallback-text">RSS</span>
+              </a>
+            {% endif %}
+          </h1>
+
+          {% if section.settings.blog_show_tag_filter and blog.tags.size > 0%}
+            <select id="BlogTagFilter">
+              <option value="/blogs/{{ blog.handle }}">All</option>
+              {% for tag in blog.all_tags %}
+                {% include 'filter-out-custom-tags' %}
+                <option value="/blogs/{{ blog.handle }}/tagged/{{ tag | handleize }}" {% if current_tags contains tag %}selected{% endif %}>{{ tag }}</option>
+              {% endfor %}
+            </select>
+          {% endif %}
+        </header>
+
+        <div class="grid grid--uniform">
+          {% for article in blog.articles %}
+            {% include 'article-grid-item', grid_item_width: 'medium-up--one-third', per_row: '3', image_size: section.settings.blog_image_size %}
+          {% endfor %}
+        </div>
+
+        {% if paginate.pages > 1 %}
+          {% include 'pagination' %}
+        {% endif %}
+
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endpaginate %}
+
+{% schema %}
+  {
+    "name": "Blog pages",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "blog_show_tag_filter",
+        "label": "Show tag filter"
+      },
+      {
+        "type": "checkbox",
+        "id": "blog_show_rss",
+        "label": "Show RSS link"
+      },
+      {
+        "type": "checkbox",
+        "id": "blog_show_tags",
+        "label": "Show tags"
+      },
+      {
+        "type": "checkbox",
+        "id": "blog_show_date",
+        "label": "Show date",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "blog_show_comments",
+        "label": "Show comment count",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "blog_show_author",
+        "label": "Show author"
+      },
+      {
+        "type": "select",
+        "id": "blog_image_size",
+        "label": "Image size",
+        "default": "wide",
+        "options": [
+          {
+            "value": "natural",
+            "label": "Natural"
+          },
+          {
+            "value": "square",
+            "label": "Square (1:1)"
+          },
+          {
+            "value": "landscape",
+            "label": "Landscape (4:3)"
+          },
+          {
+            "value": "portrait",
+            "label": "Portrait (2:3)"
+          },
+          {
+            "value": "wide",
+            "label": "Wide (16:9)"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

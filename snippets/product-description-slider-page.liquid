@@ -1,0 +1,260 @@
+{% comment %} 
+DO NOT EDIT THIS SNIPPET - it's generated automatically and may be overwritten at any time
+{% endcomment %} 
+{% if product-description-slider-page %}
+    {% assign easyslider_faq_description = product-description-slider-page | replace: "<h5></h5>", "" %} 
+{% else %}
+    {% assign easyslider_faq_description = page.content | replace: "<h5></h5>", "" %} 
+{% endif %}
+{% if easyslider_faq_description %} 
+    <div class="easyslider-text">
+        {{ easyslider_faq_description | split: "<h5" | first }}
+    </div>
+    <div class="product-description-slider product-description-slider-page" itemprop="description">
+        {% assign easyslider  = '' %} 
+        {% assign description_parts = easyslider_faq_description | split: "<h5" %}
+        {% for part in description_parts %} 
+            {% if part contains "</h5>" %}
+                {% assign remove = part | split: ">" | first | append: ">" %}
+                {% assign slideHeader  = part | split: "</h5>" | first | strip_html | replace: remove, "" %}
+                {% assign slideContent = part | append: " " | split: "</h5>" | last %}
+                {% assign slideContentShort = slideContent | strip_html | replace: "&nbsp;", "" | replace: " ", "" | strip_newlines %}
+                {% if slideContentShort != "" or slideContent contains "<img " or slideContent contains "<iframe " %}
+                    {% capture easyslider %} 
+                        {{ easyslider }} <h3 id="toggle-tab-{{forloop.index}}" class="toggle-tab ui-accordion-header"><span class="ui-accordion-header-icon ui-icon"></span>{{ slideHeader }}</h3>
+                        <div id="control-toggle-tab-{{forloop.index}}" class="control-toggle">
+                            {{ slideContent | replace: "<div", "<span" | replace: "</div", "</span" }}
+                        </div> 
+                    {% endcapture %} 
+                {% endif %}
+            {% endif %} 
+        {% endfor %} 
+        {{ easyslider }}
+    </div>
+    <script>
+        $(".toggle-tab").click(function(){
+            let tab_id = $(this).attr("id");
+            $(this).toggleClass("active");
+            $("#control-" + tab_id).toggleClass("active");
+        });
+    </script>
+    <style type='text/css' class="easyslider-styles">
+        .product-description-slider-page .control-toggle.active {
+            display: block !important;
+        }
+        .product-description-slider-page .toggle-tab.active {
+            border-bottom-width: 1px !important;
+        }
+        .product-description-slider {
+            overflow: hidden !important;
+            clear: both;
+            margin-bottom: 10px !important;
+            padding-bottom: 2px !important;
+        }
+
+        .product-description-slider .ui-icon {
+            background: none !important;
+            width: 0 !important;
+            height: 0 !important;
+            text-indent: 0 !important;
+            position: static !important;
+        }
+
+        .product-description-slider>h3 {
+            position: relative;
+            z-index: 4;
+            display: block !important;
+            overflow: hidden !important;
+            width: auto !important;
+            height: auto !important;
+            padding-top: 13px !important;
+            padding-left: 12px !important;
+            padding-right: 12px !important;
+            padding-bottom: 13px !important;
+            margin: 0 !important;
+            background-color: #fcfcfc !important;
+            color: #8d8d8d !important;
+            border-width: 0;
+            border-style: solid;
+            border-color: #dddddd #ffffff;
+            border-radius: 0;
+            font-family: inherit;
+            line-height: 14px;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: normal;
+            text-align: left;
+            text-decoration: none !important;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            outline: none !important;
+            -webkit-box-sizing: content-box !important;
+            -moz-box-sizing: content-box !important;
+            box-sizing: content-box !important;
+            overflow: hidden !important;
+            cursor: pointer !important;
+            opacity: 1 !important;
+        }
+
+        .product-description-slider>h3.ui-state-active {
+            padding-left: 12px !important;
+            padding-right: 12px !important;
+            background-color: #fcfcfc !important;
+            color: #8d8d8d !important;
+            border-color: #dddddd #ffffff;
+        }
+
+        .product-description-slider>h3:last-of-type {
+            -moz-border-radius-bottomleft: 0px !important;
+            -webkit-border-bottom-left-radius: 0px !important;
+            border-bottom-left-radius: 0px !important;
+            -moz-border-radius-bottomright: 0px !important;
+            -webkit-border-bottom-right-radius: 0px !important;
+            border-bottom-right-radius: 0px !important;
+        }
+
+        .product-description-slider>h3:first-of-type,
+        .product-description-slider>h3.easyslider-first-visible {
+            border-top-left-radius: 0px;
+            border-top-right-radius: 0px;
+        }
+
+        .product-description-slider>h3:last-of-type,
+        .product-description-slider>h3.easyslider-last-visible {
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+        }
+
+        .product-description-slider>h3.ui-state-active {
+            border-bottom-left-radius: 0 !important;
+            border-bottom-right-radius: 0 !important;
+        }
+
+        .product-description-slider>h3 {
+            border-width: 1px 1px 0 1px;
+        }
+
+        .product-description-slider>h3:last-of-type,
+        .product-description-slider>h3.easyslider-last-visible {
+            border-bottom-width: 1px;
+        }
+
+        .product-description-slider>h3.easyslider-before-active:not(.ui-state-active) {
+            border-bottom-width: 0;
+        }
+
+        .product-description-slider>h3.ui-state-active {
+            border-width: 1px 1px 1px 1px;
+        }
+
+        .product-description-slider>div {
+            display: none;
+            overflow: hidden !important;
+            padding: 10px 12px 10px 12px !important;
+            margin-top: 0px !important;
+            background-color: #ffffff;
+            color: #333333;
+            border-width: 0px 1px 0 1px;
+            border-style: solid;
+            border-color: #dddddd #ffffff;
+            border-radius: 0 !important;
+            text-align: left;
+            -webkit-transition: none;
+            -moz-transition: none;
+            -ms-transition: none;
+            -o-transition: none;
+            transition: none;
+        }
+
+        .product-description-slider>h3:last-of-type+div,
+        .product-description-slider>h3.easyslider-last-visible+div {
+            border-bottom-width: 1px;
+            border-radius: 0 0 0px 0px !important;
+        }
+
+        .product-description-slider>div#last-tab {
+            display: block;
+            padding: 0 !important;
+            margin-top: 12px !important;
+            background: transparent;
+            border: none;
+            color: inherit;
+        }
+
+        @font-face {
+            font-family: 'PDAFontAwesome';
+            src: url('//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/fonts/fontawesome-webfont.eot?v=4.4.0');
+            src: url('//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/fonts/fontawesome-webfont.eot?#iefix&v=4.4.0') format('embedded-opentype'), url('//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/fonts/fontawesome-webfont.woff2?v=4.4.0') format('woff2'), url('//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/fonts/fontawesome-webfont.woff?v=4.4.0') format('woff'), url('//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/fonts/fontawesome-webfont.ttf?v=4.4.0') format('truetype'), url('//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/fonts/fontawesome-webfont.svg?v=4.4.0#fontawesomeregular') format('svg');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        .product-description-slider>h3.ui-accordion-header>.ui-accordion-header-icon:before {
+            position: absolute;
+            top: 50%;
+            left: auto;
+            right: auto;
+            margin-top: 1px;
+            color: #8d8d8d !important;
+            font-family: 'PDAFontAwesome';
+            font-size: 9px;
+            line-height: 0;
+            text-align: center;
+        }
+
+        .product-description-slider>h3.active.ui-accordion-header>.ui-accordion-header-icon:before {
+            transform: rotate(90deg);
+        }
+
+        .product-description-slider>h3.ui-accordion-header.ui-state-active>.ui-accordion-header-icon:before {
+            color: #8d8d8d !important;
+        }
+
+        .product-description-slider>h3.ui-accordion-header>.ui-accordion-header-icon:before {
+            content: "";
+        }
+
+        .product-description-slider>h3.ui-accordion-header.ui-state-active>.ui-accordion-header-icon:before {
+            content: "";
+        }
+
+        .product-description-slider>h3 {
+            padding-right: 33px !important;
+        }
+
+        .product-description-slider>h3.ui-state-active {
+            padding-right: 33px !important;
+        }
+
+        .product-description-slider>h3.ui-accordion-header>.ui-accordion-header-icon:before {
+            right: 12px;
+        }
+
+        .product-description-slider>h3.ui-state-active>.ui-accordion-header-icon:before {
+            right: 12px;
+        }
+
+        #judgeme_product_reviews {
+            border: none !important;
+        }
+
+        .product-description-slider>div p,
+        .product-description-slider>div span,
+        .product-description-slider>div div,
+        .product-description-slider>div h1,
+        .product-description-slider>div h2,
+        .product-description-slider>div h3,
+        .product-description-slider>div h4,
+        .product-description-slider>div h5,
+        .product-description-slider>div h6 {
+            color: inherit !important;
+        }
+
+        .product-description-slider>div p:last-child {
+            margin-bottom: 0;
+        }
+    </style> 
+    <input type='hidden' id='easyslide_all_openable' value='1' /> 
+    <input type="hidden" id="scroll_to_accordion" value="1" /> 
+    {% assign description_parts = '' | split: "<h5" %} 
+{% endif %}

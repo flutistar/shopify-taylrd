@@ -1,0 +1,54 @@
+
+{% case product.type %}
+{% when 'Bomber Jacket' %}
+{% section 'product-sections-jacket' %}
+{% when 'Hooded Jacket' %}
+{% section 'product-sections-hoodedjacket' %}
+{% when 'Pocket + Jean' or '5 Pocket Pants' %}
+{% section 'product-sections-pocketjean' %}
+{% when 'Tech Chino' %}
+{% section 'product-sections-techpants' %}
+{% when 'Strech Chinos' %}
+{% section 'product-sections-techpants' %}
+{% when 'shorts' %}
+{% section 'product-sections-shorts' %}
+{% when 'Swim' %}
+{% section 'product-sections-swim' %}
+{% when 'tech shorts'%}
+{% section 'product-sections-tech-shorts' %}
+{% when 'pants' or 'pants2.0' or 'Chino Pants' %}
+{% section 'product-sections-pants' %}
+{% when 'Henley' or 'Short Sleeve Henley' or 'Long Sleeve Henley'%}
+{% section 'product-sections-henley' %}
+{% when 'Short Sleeve Shirt'%}
+{% section 'product-sections-shortsleeve' %}
+{% when 'Long Sleeve Shirt'%}
+{% section 'product-sections-longsleeve' %}
+{% when 'Underwear'%}
+{% section 'product-template' %}
+{% when 'Vneck'%}
+{% section 'product-sections-vneck' %}
+{% when 'Classic Tee'%}
+{% section 'product-sections-classic-tee' %}
+{% when 'Tech 5 Pocket' %}
+{% section 'product-sections-tech-5-pocket' %}
+{% when 'Brushed Button Down' %}
+{% section 'product-sections-brushed-button-down' %}
+{% when 'Jogger' %}
+{% section 'product-sections-jogger' %}
+{% when 'Hoodie' %}
+{% section 'product-sections-hoodie' %}
+{% endcase %}
+
+
+<script>
+  // Override default values of shop.strings for each template.
+  // Alternate product templates can change values of
+  // add to cart button, sold out, and unavailable states here.
+  theme.productStrings = {
+    addToCart: {{ 'products.product.add_to_cart' | t | json }},
+    soldOut: {{ 'products.product.sold_out' | t | json }},
+    unavailable: {{ 'products.product.unavailable' | t | json }}
+  };
+</script>
+

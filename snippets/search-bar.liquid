@@ -1,0 +1,16 @@
+{% unless search_btn_style %}
+  {%- assign search_btn_style = 'btn' -%}
+{% endunless %}
+
+<form action="/search" method="get" class="input-group search-bar {{ search_bar_location }}" role="search">
+  {% if settings.search_results == 'products' %}
+    <input type="hidden" name="type" value="product">
+  {% endif %}
+  <input type="search" name="q" value="{{ search.terms | escape }}" placeholder="{{ 'general.search.placeholder' | t }}" class="input-group-field" aria-label="{{ 'general.search.placeholder' | t }}">
+  <span class="input-group-btn">
+    <button type="submit" class="{{ search_btn_style }}">
+      {% include 'icon-search' %}
+      <span class="icon__fallback-text">{{ 'general.search.submit' | t }}</span>
+    </button>
+  </span>
+</form>

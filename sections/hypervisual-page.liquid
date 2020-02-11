@@ -1,0 +1,22 @@
+{%- assign page = pages[section.settings.hypervisual_page] -%}
+
+{% include 'hypervisual', hypervisual_object: page %}
+
+{% schema %}
+  {
+    "name": "Hypervisual page",
+    "settings": [
+      {
+        "type": "page",
+        "id": "hypervisual_page",
+        "label": "Page"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Hypervisual page",
+        "category": "Hypervisual"
+      }
+    ]
+  }
+{% endschema %}
